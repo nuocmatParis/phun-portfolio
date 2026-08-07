@@ -52,7 +52,16 @@ async function downloadAsset(asset) {
 
   const outputPath = join(projectRoot, asset.output);
   await mkdir(dirname(outputPath), { recursive: true });
-  await writeFile(outputPath, Buffer.from(await response.arrayBuffer()));
+  const body = Buffer.from(await response.arrayBuffer());
+
+  if (asset.output.endsWith("site.webmanifest")) {
+    const manifest = body
+      .toString("utf8")
+      .replaceAll('"/android-chrome-', '"./android-chrome-');
+    await writeFile(outputPath, manifest);
+  } else {
+    await writeFile(outputPath, body);
+  }
   return asset.output;
 }
 

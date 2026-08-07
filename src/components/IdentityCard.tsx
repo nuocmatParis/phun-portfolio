@@ -9,7 +9,7 @@ export function IdentityCard() {
         DevSecOps Engineer @ Verihubs
       </div>
 
-      <h1 className="text-[36px]/[39.6px] font-bold tracking-[-0.9px] sm:text-[60px]/[66px] sm:tracking-[-1.5px] min-[960px]:text-[72px]/[79.2px] min-[960px]:tracking-[-1.8px]">
+      <h1 className="text-[36px]/[39.6px] font-bold tracking-[-0.9px] sm:text-[60px]/[66px] sm:tracking-[-1.5px] lg:text-[72px]/[79.2px] lg:tracking-[-1.8px]">
         Rayhan Kafi Pratama
       </h1>
 

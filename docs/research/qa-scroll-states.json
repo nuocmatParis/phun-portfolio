@@ -1,0 +1,18 @@
+{
+  "before": {
+    "scrollY": 0,
+    "className": "site-header fixed inset-x-0 top-0 z-50 hidden h-16 w-full border-b md:block",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "borderBottom": "0.666667px solid rgba(0, 0, 0, 0)",
+    "backdropFilter": "none",
+    "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+  },
+  "after": {
+    "scrollY": 2,
+    "className": "site-header fixed inset-x-0 top-0 z-50 hidden h-16 w-full border-b md:block scrolled",
+    "backgroundColor": "oklab(0 0 0 / 0.6)",
+    "borderBottom": "0.666667px solid rgb(38, 38, 38)",
+    "backdropFilter": "blur(12px)",
+    "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+  }
+}

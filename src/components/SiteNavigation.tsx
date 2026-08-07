@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import { MoonIcon, SunIcon } from "@/components/icons";
 import { cn } from "@/lib/utils";
@@ -15,22 +15,19 @@ const navigationLinks = [
 
 export function SiteNavigation() {
   const pathname = usePathname();
-  const [isDark, setIsDark] = useState(true);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const root = document.documentElement;
+    const header = document.getElementById("site-header");
     const savedTheme = window.localStorage.getItem("theme");
 
     if (savedTheme === "dark" || savedTheme === "light") {
-      const shouldUseDarkTheme = savedTheme === "dark";
-      root.classList.toggle("dark", shouldUseDarkTheme);
-      setIsDark(shouldUseDarkTheme);
-    } else {
-      setIsDark(root.classList.contains("dark"));
+      root.classList.toggle("dark", savedTheme === "dark");
     }
 
-    const updateScrolledState = () => setIsScrolled(window.scrollY > 0);
+    const updateScrolledState = () => {
+      header?.classList.toggle("scrolled", window.scrollY > 0);
+    };
 
     updateScrolledState();
     window.addEventListener("scroll", updateScrolledState, { passive: true });
@@ -40,12 +37,11 @@ export function SiteNavigation() {
 
   const toggleTheme = () => {
     const root = document.documentElement;
-    const nextIsDark = !isDark;
+    const nextIsDark = !root.classList.contains("dark");
 
     root.classList.add("theme-transition-lock");
     root.classList.toggle("dark", nextIsDark);
     window.localStorage.setItem("theme", nextIsDark ? "dark" : "light");
-    setIsDark(nextIsDark);
 
     window.setTimeout(() => {
       root.classList.remove("theme-transition-lock");
@@ -75,12 +71,7 @@ export function SiteNavigation() {
     <>
       <header
         id="site-header"
-        className={cn(
-          "fixed inset-x-0 top-0 z-50 hidden h-16 w-full border-b transition-colors duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] md:block",
-          isScrolled
-            ? "border-border bg-[color-mix(in_oklab,var(--background)_60%,transparent)] backdrop-blur-md"
-            : "border-transparent bg-background",
-        )}
+        className="site-header fixed inset-x-0 top-0 z-50 hidden h-16 w-full border-b md:block"
       >
         <div className="site-container flex h-full items-center justify-between">
           <Link
@@ -105,15 +96,11 @@ export function SiteNavigation() {
           <button
             type="button"
             aria-label="Toggle light and dark theme"
-            aria-pressed={isDark}
             onClick={toggleTheme}
             className={themeButtonClasses}
           >
-            {isDark ? (
-              <MoonIcon className="size-[19.2px]" />
-            ) : (
-              <SunIcon className="size-[19.2px]" />
-            )}
+            <SunIcon className="block size-[19.2px] dark:hidden" />
+            <MoonIcon className="hidden size-[19.2px] dark:block" />
           </button>
         </div>
       </header>
@@ -135,15 +122,11 @@ export function SiteNavigation() {
           <button
             type="button"
             aria-label="Toggle light and dark theme"
-            aria-pressed={isDark}
             onClick={toggleTheme}
             className={themeButtonClasses}
           >
-            {isDark ? (
-              <MoonIcon className="size-[19.2px]" />
-            ) : (
-              <SunIcon className="size-[19.2px]" />
-            )}
+            <SunIcon className="block size-[19.2px] dark:hidden" />
+            <MoonIcon className="hidden size-[19.2px] dark:block" />
           </button>
         </div>
       </div>
