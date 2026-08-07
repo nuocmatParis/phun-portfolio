@@ -14,13 +14,13 @@ export function IdentityCard() {
       </h1>
 
       <div className="mt-4 flex flex-wrap items-center gap-3">
-        <h2 className="text-[20px]/[22px] font-medium tracking-[-0.5px] sm:text-[24px]/[26.4px] sm:tracking-[-0.6px]">
+        <h2 className="text-[20px]/[22px] font-medium tracking-[-0.5px] text-muted-foreground sm:text-[24px]/[26.4px] sm:tracking-[-0.6px]">
           DevSecOps Engineer
         </h2>
         <span className="text-border" aria-hidden="true">
           /
         </span>
-        <span className="font-mono text-[18px]/[28px] font-medium sm:text-[20px]/[28px]">
+        <span className="font-mono text-[18px]/[28px] font-medium text-muted-foreground sm:text-[20px]/[28px]">
           @raexera
         </span>
       </div>
