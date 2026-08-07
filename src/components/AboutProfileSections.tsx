@@ -61,7 +61,7 @@ const awards = [
 const cardClasses =
   "flex flex-col rounded-2xl border border-border bg-card p-6 sm:p-10";
 const headingClasses =
-  "mb-8 text-xl font-semibold tracking-tight text-foreground sm:text-2xl";
+  "mb-8 text-[20px]/[22px] font-semibold tracking-[-0.5px] text-foreground sm:text-[24px]/[26.4px] sm:tracking-[-0.6px]";
 
 export function SkillsSection() {
   return (
@@ -70,7 +70,7 @@ export function SkillsSection() {
       <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2">
         {skillGroups.map((group) => (
           <div key={group.name} className="flex flex-col gap-4">
-            <h3 className="text-sm font-semibold tracking-tight text-foreground">
+            <h3 className="text-[14px]/[15.4px] font-semibold tracking-[-0.35px] text-foreground">
               {group.name}
             </h3>
             <div className="flex flex-wrap gap-2">

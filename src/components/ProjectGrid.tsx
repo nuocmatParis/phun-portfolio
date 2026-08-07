@@ -63,14 +63,14 @@ export function ProjectGrid() {
               <h2 className="text-lg font-semibold tracking-tight text-foreground">
                 {project.name}
               </h2>
-              <DiagonalArrowIcon className="mt-1 size-4 shrink-0 -translate-x-1 translate-y-1 -rotate-45 text-muted-foreground opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:rotate-0 group-hover:text-foreground group-hover:opacity-100" />
+              <DiagonalArrowIcon className="mt-1 size-4 shrink-0 -translate-x-1 translate-y-1 -rotate-45 text-muted-foreground opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:text-foreground group-hover:opacity-100" />
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
               {project.description}
             </p>
 
-            <ul className="flex-1 list-inside list-disc space-y-1 text-sm leading-relaxed text-muted-foreground">
+            <ul className="flex-1 list-inside list-disc space-y-1 text-sm text-muted-foreground">
               {project.highlights.map((highlight) => (
                 <li key={highlight}>{highlight}</li>
               ))}

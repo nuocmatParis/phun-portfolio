@@ -71,23 +71,10 @@ interface ExperienceItemProps {
 
 function CurrentMarker() {
   return (
-    <span className="relative size-2 shrink-0" aria-hidden="true">
-      <span className="absolute inset-0 animate-ping rounded-full bg-[oklch(0.723_0.219_149.579)]" />
-      <span className="absolute inset-0 rounded-full bg-[oklch(0.723_0.219_149.579)]" />
+    <span className="relative flex size-2 shrink-0" aria-hidden="true">
+      <span className="absolute inline-flex size-full animate-ping rounded-full bg-green-500 opacity-75" />
+      <span className="relative inline-flex size-2 rounded-full bg-green-500" />
     </span>
-  );
-}
-
-function PastMarker({ size = "large" }: { size?: "small" | "large" }) {
-  return (
-    <span
-      className={
-        size === "large"
-          ? "size-2.5 shrink-0 rounded-full border border-muted-foreground/50 bg-card"
-          : "size-1.5 shrink-0 rounded-full bg-muted-foreground/50"
-      }
-      aria-hidden="true"
-    />
   );
 }
 
@@ -96,57 +83,64 @@ function ExperienceItem({ entry, isLast }: ExperienceItemProps) {
 
   return (
     <>
-      <div className="mb-3 flex items-center justify-between gap-4 text-xs font-medium text-muted-foreground sm:hidden">
-        <p className="flex items-center gap-1.5">
-          <span>{entry.startDate}</span>
+      <div className="mb-2 flex w-full items-center justify-between text-xs font-medium text-muted-foreground sm:mt-0.5 sm:mb-0 sm:w-auto sm:flex-col sm:items-start sm:justify-start sm:gap-1">
+        <div className="flex items-center gap-1.5">
+          <time>{entry.startDate}</time>
           <span aria-hidden="true">–</span>
-          <span className={entry.current ? "font-semibold text-foreground" : undefined}>
+          <time
+            className={entry.current ? "font-semibold text-foreground" : undefined}
+          >
             {entry.endDate}
+          </time>
+        </div>
+        <div className="flex shrink-0 items-center gap-1.5">
+          <div className="flex sm:hidden">
+            {entry.current ? (
+              <CurrentMarker />
+            ) : (
+              <span className="text-muted-foreground/40" aria-hidden="true">
+                •
+              </span>
+            )}
+          </div>
+          <span className="font-normal text-muted-foreground/70">
+            {entry.duration}
           </span>
-        </p>
-        <p className="flex items-center gap-2 text-muted-foreground/70">
-          {entry.current ? <CurrentMarker /> : <PastMarker size="small" />}
-          {entry.duration}
-        </p>
+        </div>
       </div>
 
-      <div className="hidden text-xs font-medium text-muted-foreground sm:block">
-        <p className="flex items-center gap-1.5 whitespace-nowrap">
-          <span>{entry.startDate}</span>
-          <span aria-hidden="true">–</span>
-          <span className={entry.current ? "font-semibold text-foreground" : undefined}>
-            {entry.endDate}
-          </span>
-        </p>
-        <p className="mt-1.5 text-muted-foreground/70">{entry.duration}</p>
-      </div>
-
-      <div className="relative hidden w-2.5 justify-center sm:flex">
-        {entry.current ? <CurrentMarker /> : <PastMarker />}
+      <div className="relative hidden w-2.5 flex-col items-center sm:flex">
         {!isLast && (
           <span
-            className="absolute top-3 bottom-0 w-px bg-border"
+            className="absolute top-3 -bottom-3 left-1/2 w-px -translate-x-1/2 bg-border"
             aria-hidden="true"
           />
         )}
+        {entry.current ? (
+          <span className="relative z-10 mt-[11px] flex size-2.5 shrink-0 items-center justify-center rounded-full bg-card ring-4 ring-card">
+            <CurrentMarker />
+          </span>
+        ) : (
+          <span className="relative z-10 mt-[11px] size-2.5 shrink-0 rounded-full border border-border bg-card ring-4 ring-card" />
+        )}
       </div>
 
-      <article className={isLast ? undefined : "mb-10"}>
-        <div className="flex flex-wrap items-center gap-x-1.5 gap-y-1">
-          <h3 className="text-base leading-[22px] font-semibold">
+      <div className={isLast ? undefined : "mb-10"}>
+        <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-2">
+          <h3 className="text-base leading-snug font-semibold text-foreground">
             {entry.position}
           </h3>
-          <span className="text-muted-foreground" aria-hidden="true">
+          <span className="hidden text-muted-foreground sm:inline" aria-hidden="true">
             ·
           </span>
           <a
             href={entry.companyUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors duration-150 hover:text-foreground"
+            className="group inline-flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
           >
             {entry.company}
-            <DiagonalArrowIcon className="size-[13px] -translate-x-1 opacity-0 transition-[transform,opacity] duration-150 group-hover:translate-x-0 group-hover:opacity-100" />
+            <DiagonalArrowIcon className="size-3 -translate-x-1 translate-y-1 -rotate-45 opacity-0 transition-all group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100" />
           </a>
         </div>
 
@@ -154,36 +148,46 @@ function ExperienceItem({ entry, isLast }: ExperienceItemProps) {
           {entry.location} <span aria-hidden="true">•</span> {entry.locationType}
         </p>
 
-        <div
-          className={`mt-4 overflow-hidden text-sm leading-relaxed text-muted-foreground transition-opacity duration-200 ${
-            isExpanded ? "h-auto opacity-100" : "h-10 opacity-60"
-          }`}
-        >
-          <p>{entry.summary}</p>
-          <div className="mt-4 flex flex-col gap-4">
-            <p className="font-medium text-foreground">Key Responsibilities:</p>
-            <ul className="ml-4 list-outside list-disc space-y-1.5 pl-1 marker:text-muted-foreground/50">
-              {entry.responsibilities.map((responsibility) => (
-                <li key={responsibility}>{responsibility}</li>
-              ))}
-            </ul>
+        <div className="mt-4 flex flex-col gap-4 text-sm text-muted-foreground">
+          <div className="leading-relaxed">
+            <p>{entry.summary}</p>
+          </div>
+          <div className="relative flex flex-col gap-3">
+            <div
+              className={`relative overflow-hidden transition-opacity duration-200 ${
+                isExpanded ? "h-auto opacity-100" : "h-10 opacity-60"
+              }`}
+            >
+              <div className="mt-3 flex flex-col gap-2">
+                <span className="font-medium text-foreground">
+                  Key Responsibilities:
+                </span>
+                <ul className="ml-4 list-outside list-disc space-y-1.5 marker:text-muted-foreground/50">
+                  {entry.responsibilities.map((responsibility) => (
+                    <li key={responsibility} className="pl-1 leading-relaxed">
+                      {responsibility}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              aria-expanded={isExpanded}
+              onClick={() => setIsExpanded((expanded) => !expanded)}
+              className="group/more flex w-fit cursor-pointer items-center justify-center gap-1 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+            >
+              <span>{isExpanded ? "Show less" : "Show more"}</span>
+              <ChevronDownIcon
+                className={`size-3.5 transition-transform group-hover/more:translate-y-0.5 ${
+                  isExpanded ? "rotate-180" : ""
+                }`}
+              />
+            </button>
           </div>
         </div>
-
-        <button
-          type="button"
-          aria-expanded={isExpanded}
-          onClick={() => setIsExpanded((expanded) => !expanded)}
-          className="group mt-2 flex w-fit items-center gap-1 text-xs font-medium text-muted-foreground transition-colors duration-150 hover:text-foreground"
-        >
-          {isExpanded ? "Show less" : "Show more"}
-          <ChevronDownIcon
-            className={`size-3.5 transition-transform duration-200 group-hover:translate-y-0.5 ${
-              isExpanded ? "rotate-180" : ""
-            }`}
-          />
-        </button>
-      </article>
+      </div>
     </>
   );
 }
