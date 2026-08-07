@@ -1,0 +1,52 @@
+[
+  {
+    "scrollY": 0,
+    "className": "fixed top-0 z-50 hidden h-16 w-full md:block print:hidden",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "borderBottom": "0.666667px solid rgba(0, 0, 0, 0)",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "opacity": "1"
+  },
+  {
+    "scrollY": 1.3333333730697632,
+    "className": "fixed top-0 z-50 hidden h-16 w-full md:block print:hidden scrolled",
+    "backgroundColor": "oklab(0 0 0 / 0.6)",
+    "borderBottom": "0.666667px solid rgb(38, 38, 38)",
+    "boxShadow": "none",
+    "backdropFilter": "blur(12px)",
+    "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "opacity": "1"
+  },
+  {
+    "scrollY": 32,
+    "className": "fixed top-0 z-50 hidden h-16 w-full md:block print:hidden scrolled",
+    "backgroundColor": "oklab(0 0 0 / 0.6)",
+    "borderBottom": "0.666667px solid rgb(38, 38, 38)",
+    "boxShadow": "none",
+    "backdropFilter": "blur(12px)",
+    "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "opacity": "1"
+  },
+  {
+    "scrollY": 100,
+    "className": "fixed top-0 z-50 hidden h-16 w-full md:block print:hidden scrolled",
+    "backgroundColor": "oklab(0 0 0 / 0.6)",
+    "borderBottom": "0.666667px solid rgb(38, 38, 38)",
+    "boxShadow": "none",
+    "backdropFilter": "blur(12px)",
+    "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "opacity": "1"
+  },
+  {
+    "scrollY": 192,
+    "className": "fixed top-0 z-50 hidden h-16 w-full md:block print:hidden scrolled",
+    "backgroundColor": "oklab(0 0 0 / 0.6)",
+    "borderBottom": "0.666667px solid rgb(38, 38, 38)",
+    "boxShadow": "none",
+    "backdropFilter": "blur(12px)",
+    "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+    "opacity": "1"
+  }
+]

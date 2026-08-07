@@ -1,0 +1,1817 @@
+{
+  "url": "https://raexera.is-a.dev/",
+  "title": "Home - ラエクセラ",
+  "language": "en",
+  "body": {
+    "display": "flex",
+    "position": "relative",
+    "width": "1424.67px",
+    "height": "900px",
+    "flexDirection": "column",
+    "background": "rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backgroundColor": "rgb(0, 0, 0)",
+    "color": "rgb(250, 250, 250)",
+    "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "32px",
+    "border": "0px solid rgb(250, 250, 250)",
+    "overflow": "visible",
+    "transition": "all",
+    "opacity": "1"
+  },
+  "htmlClasses": "dark",
+  "bodyClasses": "",
+  "scroll": {
+    "width": 1425,
+    "height": 1092,
+    "scrollBehavior": "auto",
+    "scrollSnap": "none"
+  },
+  "landmarks": [
+    {
+      "i": 0,
+      "tag": "header",
+      "id": "header",
+      "classes": "fixed top-0 z-50 hidden h-16 w-full md:block print:hidden",
+      "label": "ラエクセラ Home About Projects",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1424.666748046875,
+        "height": 64
+      },
+      "styles": {
+        "display": "block",
+        "position": "fixed",
+        "width": "1424.67px",
+        "height": "64px",
+        "flexDirection": "row",
+        "background": "rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "overflow": "visible",
+        "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1",
+        "zIndex": "50"
+      }
+    },
+    {
+      "i": 1,
+      "tag": "nav",
+      "id": "",
+      "classes": "hidden items-center gap-2 text-sm md:flex",
+      "label": "Home About Projects",
+      "rect": {
+        "x": 620.84375,
+        "y": 13.666666984558105,
+        "width": 244.4791717529297,
+        "height": 36
+      },
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "244.479px",
+        "height": "36px",
+        "gap": "8px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1"
+      }
+    },
+    {
+      "i": 2,
+      "tag": "nav",
+      "id": "",
+      "classes": "flex gap-1",
+      "label": "Home About Projects",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "gap": "4px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1"
+      }
+    },
+    {
+      "i": 3,
+      "tag": "main",
+      "id": "",
+      "classes": "relative z-10",
+      "label": "DevSecOps Engineer @ Verihubs Rayhan Kafi Pratama DevSecOps Engineer / @raexera Who I Am? DevSecOps Engineer specializing in hybrid multi-cloud and on-premise infrastructure, alongside distributed systems. Experienced in low-level Linux debugging and building custom internal developer platforms (IDP",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1424.666748046875,
+        "height": 1007.1979370117188
+      },
+      "styles": {
+        "display": "flex",
+        "position": "relative",
+        "width": "1424.67px",
+        "height": "1007.2px",
+        "flexDirection": "column",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1",
+        "zIndex": "10"
+      }
+    },
+    {
+      "i": 4,
+      "tag": "section",
+      "id": "",
+      "classes": "flex min-h-[calc(100vh-12rem)] items-center py-24 sm:py-32",
+      "label": "DevSecOps Engineer @ Verihubs Rayhan Kafi Pratama DevSecOps Engineer / @raexera Who I Am? DevSecOps Engineer specializing in hybrid multi-cloud and on-premise infrastructure, alongside distributed systems. Experienced in low-level Linux debugging and building custom internal developer platforms (IDP",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1424.666748046875,
+        "height": 1007.1979370117188
+      },
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "1424.67px",
+        "height": "1007.2px",
+        "padding": "128px 0px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1"
+      }
+    },
+    {
+      "i": 5,
+      "tag": "footer",
+      "id": "",
+      "classes": "relative mt-auto hidden w-full md:block print:hidden",
+      "label": "© 2026 Rayhan Kafi Pratama. All rights reserved.",
+      "rect": {
+        "x": 0,
+        "y": 1007.1979370117188,
+        "width": 1424.666748046875,
+        "height": 84.66667175292969
+      },
+      "styles": {
+        "display": "block",
+        "position": "relative",
+        "width": "1424.67px",
+        "height": "84.6667px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1"
+      }
+    },
+    {
+      "i": 6,
+      "tag": "section",
+      "id": "",
+      "classes": "border-t border-border py-8",
+      "label": "© 2026 Rayhan Kafi Pratama. All rights reserved.",
+      "rect": {
+        "x": 215.33334350585938,
+        "y": 1007.1979370117188,
+        "width": 994,
+        "height": 84.66667175292969
+      },
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "994px",
+        "height": "84.6667px",
+        "padding": "32px 0px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1"
+      }
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Rayhan Kafi Pratama",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "926.667px",
+        "height": "79.1979px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "72px",
+        "fontWeight": "700",
+        "lineHeight": "79.2px",
+        "letterSpacing": "-1.8px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 249,
+        "y": 230,
+        "width": 926.6666870117188,
+        "height": 79.19792175292969
+      }
+    },
+    {
+      "tag": "h2",
+      "text": "DevSecOps Engineer",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "229.438px",
+        "height": "26.3958px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "26.4px",
+        "letterSpacing": "-0.6px",
+        "border": "0px solid rgb(163, 163, 163)",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 249,
+        "y": 328,
+        "width": 229.4375,
+        "height": 26.39583396911621
+      }
+    }
+  ],
+  "textBlocks": [
+    {
+      "text": "DevSecOps Engineer specializing in hybrid multi-cloud and on-premise infrastructure, alongside distributed systems. Experienced in low-level Linux debugging and building custom internal developer platforms (IDP) using Go and Python. Linux enthusiast and advocate for Immutable Infrastructure (NixOS) ",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "596px",
+        "height": "175.5px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "29.25px",
+        "border": "0px solid rgb(163, 163, 163)",
+        "overflow": "visible",
+        "transition": "all",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 241,
+        "y": 517.4479370117188,
+        "width": 596,
+        "height": 175.5
+      }
+    },
+    {
+      "text": "© 2026 Rayhan Kafi Pratama. All rights reserved.",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "308.302px",
+        "height": "20px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "-0.35px",
+        "border": "0px solid rgb(163, 163, 163)",
+        "overflow": "visible",
+        "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.3s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 558.1771240234375,
+        "y": 1039.8646240234375,
+        "width": 308.3020935058594,
+        "height": 20
+      }
+    }
+  ],
+  "interactive": [
+    {
+      "i": 0,
+      "tag": "a",
+      "label": "ラエクセラ",
+      "href": "https://raexera.is-a.dev/",
+      "aria": null,
+      "classes": "font-['Yuji_Mai'] text-xl font-bold tracking-tight text-foreground transition-colors hover:text-muted-foreground",
+      "styles": {
+        "display": "block",
+        "position": "static",
+        "width": "97.5px",
+        "height": "28px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "\"Yuji Mai\"",
+        "fontSize": "20px",
+        "fontWeight": "700",
+        "lineHeight": "28px",
+        "letterSpacing": "-0.5px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 127.33333587646484,
+        "y": 17.666667938232422,
+        "width": 97.5,
+        "height": 28
+      }
+    },
+    {
+      "i": 1,
+      "tag": "a",
+      "label": "Home",
+      "href": "https://raexera.is-a.dev/",
+      "aria": null,
+      "classes": "flex h-9 items-center justify-center rounded-md px-4 text-sm font-medium transition-colors bg-muted text-foreground",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "71.2292px",
+        "height": "36px",
+        "padding": "0px 16px",
+        "flexDirection": "row",
+        "background": "rgb(23, 23, 23) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(23, 23, 23)",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "6px",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 620.84375,
+        "y": 13.666666984558105,
+        "width": 71.22917175292969,
+        "height": 36
+      }
+    },
+    {
+      "i": 2,
+      "tag": "a",
+      "label": "About",
+      "href": "https://raexera.is-a.dev/about",
+      "aria": null,
+      "classes": "flex h-9 items-center justify-center rounded-md px-4 text-sm font-medium transition-colors text-muted-foreground hover:bg-muted hover:text-foreground",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "71.4896px",
+        "height": "36px",
+        "padding": "0px 16px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20px",
+        "border": "0px solid rgb(163, 163, 163)",
+        "borderRadius": "6px",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 700.0729370117188,
+        "y": 13.666666984558105,
+        "width": 71.48958587646484,
+        "height": 36
+      }
+    },
+    {
+      "i": 3,
+      "tag": "a",
+      "label": "Projects",
+      "href": "https://raexera.is-a.dev/projects",
+      "aria": null,
+      "classes": "flex h-9 items-center justify-center rounded-md px-4 text-sm font-medium transition-colors text-muted-foreground hover:bg-muted hover:text-foreground",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "85.7604px",
+        "height": "36px",
+        "padding": "0px 16px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20px",
+        "border": "0px solid rgb(163, 163, 163)",
+        "borderRadius": "6px",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 779.5625,
+        "y": 13.666666984558105,
+        "width": 85.76042175292969,
+        "height": 36
+      }
+    },
+    {
+      "i": 4,
+      "tag": "button",
+      "label": "Toggle light and dark theme",
+      "href": null,
+      "aria": "Toggle light and dark theme",
+      "classes": "flex size-9 cursor-pointer items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-muted hover:text-foreground",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "36px",
+        "height": "36px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0.666667px solid rgb(38, 38, 38)",
+        "borderRadius": "6px",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 1261.3333740234375,
+        "y": 13.666666984558105,
+        "width": 36,
+        "height": 36
+      }
+    },
+    {
+      "i": 5,
+      "tag": "a",
+      "label": "Home",
+      "href": "https://raexera.is-a.dev/",
+      "aria": null,
+      "classes": "flex h-9 items-center justify-center rounded-lg px-3 text-sm font-medium transition-colors bg-muted text-foreground",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "height": "36px",
+        "padding": "0px 12px",
+        "flexDirection": "row",
+        "background": "rgb(23, 23, 23) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(23, 23, 23)",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20px",
+        "border": "0px solid rgb(250, 250, 250)",
+        "borderRadius": "8px",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "i": 6,
+      "tag": "a",
+      "label": "About",
+      "href": "https://raexera.is-a.dev/about",
+      "aria": null,
+      "classes": "flex h-9 items-center justify-center rounded-lg px-3 text-sm font-medium transition-colors text-muted-foreground hover:bg-muted hover:text-foreground",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "height": "36px",
+        "padding": "0px 12px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20px",
+        "border": "0px solid rgb(163, 163, 163)",
+        "borderRadius": "8px",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "i": 7,
+      "tag": "a",
+      "label": "Projects",
+      "href": "https://raexera.is-a.dev/projects",
+      "aria": null,
+      "classes": "flex h-9 items-center justify-center rounded-lg px-3 text-sm font-medium transition-colors text-muted-foreground hover:bg-muted hover:text-foreground",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "height": "36px",
+        "padding": "0px 12px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "20px",
+        "border": "0px solid rgb(163, 163, 163)",
+        "borderRadius": "8px",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "i": 8,
+      "tag": "button",
+      "label": "",
+      "href": null,
+      "aria": "Toggle light and dark theme",
+      "classes": "flex size-9 cursor-pointer items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-muted hover:text-foreground",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "36px",
+        "height": "36px",
+        "flexDirection": "row",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "color": "rgb(163, 163, 163)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0.666667px solid rgb(38, 38, 38)",
+        "borderRadius": "6px",
+        "overflow": "visible",
+        "transition": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "i": 9,
+      "tag": "a",
+      "label": "email link",
+      "href": "mailto:raexera@gmail.com",
+      "aria": "email link",
+      "classes": "group flex aspect-square w-full items-center justify-center rounded-2xl border border-border bg-background transition-all hover:border-border/80 hover:bg-muted/50",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "124.667px",
+        "height": "124.667px",
+        "flexDirection": "row",
+        "background": "rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0.666667px solid rgb(38, 38, 38)",
+        "borderRadius": "16px",
+        "overflow": "visible",
+        "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 926.3333740234375,
+        "y": 454.53125,
+        "width": 124.66667175292969,
+        "height": 124.66667175292969
+      }
+    },
+    {
+      "i": 10,
+      "tag": "a",
+      "label": "linkedin link",
+      "href": "https://linkedin.com/in/rayhankafipratama",
+      "aria": "linkedin link",
+      "classes": "group flex aspect-square w-full items-center justify-center rounded-2xl border border-border bg-background transition-all hover:border-border/80 hover:bg-muted/50",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "124.667px",
+        "height": "124.667px",
+        "flexDirection": "row",
+        "background": "rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0.666667px solid rgb(38, 38, 38)",
+        "borderRadius": "16px",
+        "overflow": "visible",
+        "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 1067,
+        "y": 454.53125,
+        "width": 124.66667175292969,
+        "height": 124.66667175292969
+      }
+    },
+    {
+      "i": 11,
+      "tag": "a",
+      "label": "github link",
+      "href": "https://github.com/raexera",
+      "aria": "github link",
+      "classes": "group flex aspect-square w-full items-center justify-center rounded-2xl border border-border bg-background transition-all hover:border-border/80 hover:bg-muted/50",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "124.667px",
+        "height": "124.667px",
+        "flexDirection": "row",
+        "background": "rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0.666667px solid rgb(38, 38, 38)",
+        "borderRadius": "16px",
+        "overflow": "visible",
+        "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 926.3333740234375,
+        "y": 595.1979370117188,
+        "width": 124.66667175292969,
+        "height": 124.66667175292969
+      }
+    },
+    {
+      "i": 12,
+      "tag": "a",
+      "label": "telegram link",
+      "href": "https://t.me/raexera",
+      "aria": "telegram link",
+      "classes": "group flex aspect-square w-full items-center justify-center rounded-2xl border border-border bg-background transition-all hover:border-border/80 hover:bg-muted/50",
+      "styles": {
+        "display": "flex",
+        "position": "static",
+        "width": "124.667px",
+        "height": "124.667px",
+        "flexDirection": "row",
+        "background": "rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(250, 250, 250)",
+        "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "32px",
+        "border": "0.666667px solid rgb(38, 38, 38)",
+        "borderRadius": "16px",
+        "overflow": "visible",
+        "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+        "opacity": "1"
+      },
+      "rect": {
+        "x": 1067,
+        "y": 595.1979370117188,
+        "width": 124.66667175292969,
+        "height": 124.66667175292969
+      }
+    }
+  ],
+  "images": [],
+  "videos": [],
+  "backgrounds": [],
+  "svgs": [
+    {
+      "i": 0,
+      "outerHTML": "<svg width=\"1em\" height=\"1em\" class=\"block size-[1.2rem] dark:hidden\" data-icon=\"sun\">   <symbol id=\"ai:local:sun\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M17 12a5 5 0 1 1-10 0 5 5 0 0 1 10 0M12 2v1.5m0 17V22m7.07-2.929-1.06-1.06M5.99 5.989 4.928 4.93M22 12h-1.5m-17 0H2m17.071-7.071-1.06 1.06M5.99 18.011l-1.06 1.06\" color=\"currentColor\"></path></symbol><use href=\"#ai:local:sun\"></use>  </svg>",
+      "rect": {
+        "width": 0,
+        "height": 0
+      },
+      "parent": "<button id=\"headerThemeToggle\" aria-label=\"Toggle light and dark theme\" class=\"flex size-9 cursor-pointer items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-muted hover:text-foreground\"> <svg "
+    },
+    {
+      "i": 1,
+      "outerHTML": "<svg width=\"1em\" height=\"1em\" class=\"hidden size-[1.2rem] dark:block\" data-icon=\"moon\">   <symbol id=\"ai:local:moon\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M21.5 14.078A8.557 8.557 0 0 1 9.922 2.5C5.668 3.497 2.5 7.315 2.5 11.873a9.627 9.627 0 0 0 9.627 9.627c4.558 0 8.376-3.168 9.373-7.422\" color=\"currentColor\"></path></symbol><use href=\"#ai:local:moon\"></use>  </svg>",
+      "rect": {
+        "width": 19.197917938232422,
+        "height": 19.197917938232422
+      },
+      "parent": "<button id=\"headerThemeToggle\" aria-label=\"Toggle light and dark theme\" class=\"flex size-9 cursor-pointer items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-muted hover:text-foreground\"> <svg "
+    },
+    {
+      "i": 2,
+      "outerHTML": "<svg width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" class=\"block size-[1.2rem] dark:hidden\" data-icon=\"sun\">   <use href=\"#ai:local:sun\"></use>  </svg>",
+      "rect": {
+        "width": 0,
+        "height": 0
+      },
+      "parent": "<button id=\"navbarThemeToggle\" aria-label=\"Toggle light and dark theme\" class=\"flex size-9 cursor-pointer items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-muted hover:text-foreground\"> <svg "
+    },
+    {
+      "i": 3,
+      "outerHTML": "<svg width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" class=\"hidden size-[1.2rem] dark:block\" data-icon=\"moon\">   <use href=\"#ai:local:moon\"></use>  </svg>",
+      "rect": {
+        "width": 0,
+        "height": 0
+      },
+      "parent": "<button id=\"navbarThemeToggle\" aria-label=\"Toggle light and dark theme\" class=\"flex size-9 cursor-pointer items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-muted hover:text-foreground\"> <svg "
+    },
+    {
+      "i": 4,
+      "outerHTML": "<svg width=\"1em\" height=\"1em\" class=\"size-6 text-muted-foreground transition-colors group-hover:text-foreground md:size-8\" data-astro-cid-j7pv25f6=\"true\" data-icon=\"email\">   <symbol id=\"ai:local:email\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" color=\"currentColor\"><path d=\"m2 6 6.913 3.917c2.549 1.444 3.625 1.444 6.174 0L22 6\"></path><path d=\"M2.016 13.476c.065 3.065.098 4.598 1.229 5.733 1.131 1.136 2.705 1.175 5.854 1.254 1.94.05 3.862.05 5.802 0 3.149-.079 4.723-.118 5.854-1.254 1.131-1.135 1.164-2.668 1.23-5.733.02-.986.02-1.966 0-2.952-.066-3.065-.099-4.598-1.23-5.733-1.131-1.136-2.705-1.175-5.854-1.254a115 115 0 0 0-5.802 0c-3.149.079-4.723.118-5.854 1.254-1.131 1.135-1.164 2.668-1.23 5.733a69 69 0 0 0 0 2.952\"></path></g></symbol><use href=\"#ai:local:email\"></use>  </svg>",
+      "rect": {
+        "width": 32,
+        "height": 32
+      },
+      "parent": "<a href=\"mailto:raexera@gmail.com\" target=\"_blank\" aria-label=\"email link\" class=\"group flex aspect-square w-full items-center justify-center rounded-2xl border border-border bg-background transition-all hover:border-border/80 hover:bg-muted/50\" data"
+    },
+    {
+      "i": 5,
+      "outerHTML": "<svg width=\"1em\" height=\"1em\" class=\"size-6 text-muted-foreground transition-colors group-hover:text-foreground md:size-8\" data-astro-cid-j7pv25f6=\"true\" data-icon=\"linkedin\">   <symbol id=\"ai:local:linkedin\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" color=\"currentColor\"><path d=\"M7 10v7m4-4v4m0-4a3 3 0 1 1 6 0v4m-6-4v-3M7.008 7h-.009\"></path><path d=\"M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12\"></path></g></symbol><use href=\"#ai:local:linkedin\"></use>  </svg>",
+      "rect": {
+        "width": 32,
+        "height": 32
+      },
+      "parent": "<a href=\"https://linkedin.com/in/rayhankafipratama\" target=\"_blank\" aria-label=\"linkedin link\" class=\"group flex aspect-square w-full items-center justify-center rounded-2xl border border-border bg-background transition-all hover:border-border/80 hov"
+    },
+    {
+      "i": 6,
+      "outerHTML": "<svg width=\"1em\" height=\"1em\" class=\"size-6 text-muted-foreground transition-colors group-hover:text-foreground md:size-8\" data-astro-cid-j7pv25f6=\"true\" data-icon=\"github\">   <symbol id=\"ai:local:github\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" color=\"currentColor\"><path d=\"M10 20.568c-3.429 1.157-6.286 0-8-3.568\"></path><path d=\"M10 22v-3.242c0-.598.184-1.118.48-1.588.204-.322.064-.78-.303-.88C7.134 15.452 5 14.107 5 9.645c0-1.16.38-2.25 1.048-3.2.166-.236.25-.354.27-.46.02-.108-.015-.247-.085-.527-.283-1.136-.264-2.343.16-3.43 0 0 .877-.287 2.874.96.456.285.684.428.885.46s.469-.035 1.005-.169A9.5 9.5 0 0 1 13.5 3a9.6 9.6 0 0 1 2.343.28c.536.134.805.2 1.006.169.2-.032.428-.175.884-.46 1.997-1.247 2.874-.96 2.874-.96.424 1.087.443 2.294.16 3.43-.07.28-.104.42-.084.526s.103.225.269.461c.668.95 1.048 2.04 1.048 3.2 0 4.462-2.134 5.807-5.177 6.643-.367.101-.507.559-.303.88.296.47.48.99.48 1.589V22\"></path></g></symbol><use href=\"#ai:local:github\"></use>  </svg>",
+      "rect": {
+        "width": 32,
+        "height": 32
+      },
+      "parent": "<a href=\"https://github.com/raexera\" target=\"_blank\" aria-label=\"github link\" class=\"group flex aspect-square w-full items-center justify-center rounded-2xl border border-border bg-background transition-all hover:border-border/80 hover:bg-muted/50\" d"
+    },
+    {
+      "i": 7,
+      "outerHTML": "<svg width=\"1em\" height=\"1em\" class=\"size-6 text-muted-foreground transition-colors group-hover:text-foreground md:size-8\" data-astro-cid-j7pv25f6=\"true\" data-icon=\"telegram\">   <symbol id=\"ai:local:telegram\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"m11.985 15.408 3.242 3.686c1.2 1.365 1.801 2.048 2.43 1.881.628-.166.844-1.064 1.275-2.861l2.39-9.968c.665-2.768.997-4.151.259-4.834s-2.017-.175-4.575.84L5.14 8.865c-2.046.813-3.069 1.219-3.134 1.917a1 1 0 0 0 0 .214c.063.699 1.084 1.108 3.128 1.927.925.371 1.388.557 1.72.912q.056.06.108.124c.306.38.436.88.697 1.876l.489 1.867c.253.97.38 1.456.713 1.522s.622-.336 1.201-1.141zm0 0-.317-.33c-.362-.378-.543-.566-.543-.8s.18-.423.543-.8l3.573-3.724\" color=\"currentColor\"></path></symbol><use href=\"#ai:local:telegram\"></use>  </svg>",
+      "rect": {
+        "width": 32,
+        "height": 32
+      },
+      "parent": "<a href=\"https://t.me/raexera\" target=\"_blank\" aria-label=\"telegram link\" class=\"group flex aspect-square w-full items-center justify-center rounded-2xl border border-border bg-background transition-all hover:border-border/80 hover:bg-muted/50\" data-"
+    }
+  ],
+  "fonts": [
+    "Inter, ui-sans-serif, system-ui, sans-serif",
+    "\"Yuji Mai\"",
+    "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace"
+  ],
+  "fontFaces": [
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "unloaded"
+    },
+    {
+      "family": "Yuji Mai",
+      "style": "normal",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "style": "normal",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Inter",
+      "style": "normal",
+      "weight": "700",
+      "status": "loaded"
+    }
+  ],
+  "stylesheets": [
+    {
+      "href": "https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap",
+      "disabled": false
+    },
+    {
+      "href": "https://raexera.is-a.dev/_astro/BaseLayout.v4M0xaiU.css",
+      "disabled": false
+    },
+    {
+      "href": null,
+      "disabled": false
+    },
+    {
+      "href": null,
+      "disabled": false
+    },
+    {
+      "href": null,
+      "disabled": false
+    }
+  ],
+  "links": [
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://raexera.is-a.dev/apple-touch-icon.png",
+      "as": "",
+      "type": "",
+      "sizes": "180x180"
+    },
+    {
+      "rel": "icon",
+      "href": "https://raexera.is-a.dev/favicon-32x32.png",
+      "as": "",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "rel": "icon",
+      "href": "https://raexera.is-a.dev/favicon-16x16.png",
+      "as": "",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "rel": "manifest",
+      "href": "https://raexera.is-a.dev/site.webmanifest",
+      "as": "",
+      "type": "",
+      "sizes": ""
+    },
+    {
+      "rel": "preload",
+      "href": "https://raexera.is-a.dev/fonts/Inter-Regular.woff2",
+      "as": "font",
+      "type": "font/woff2",
+      "sizes": ""
+    },
+    {
+      "rel": "preload",
+      "href": "https://raexera.is-a.dev/fonts/Inter-Bold.woff2",
+      "as": "font",
+      "type": "font/woff2",
+      "sizes": ""
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://fonts.googleapis.com/",
+      "as": "",
+      "type": "",
+      "sizes": ""
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://fonts.gstatic.com/",
+      "as": "",
+      "type": "",
+      "sizes": ""
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap",
+      "as": "",
+      "type": "",
+      "sizes": ""
+    },
+    {
+      "rel": "canonical",
+      "href": "https://raexera.is-a.dev/",
+      "as": "",
+      "type": "",
+      "sizes": ""
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://raexera.is-a.dev/_astro/BaseLayout.v4M0xaiU.css",
+      "as": "",
+      "type": "",
+      "sizes": ""
+    }
+  ],
+  "meta": [
+    {
+      "name": "",
+      "property": null,
+      "content": ""
+    },
+    {
+      "name": "viewport",
+      "property": null,
+      "content": "width=device-width,initial-scale=1"
+    },
+    {
+      "name": "generator",
+      "property": null,
+      "content": "Astro v6.3.1"
+    },
+    {
+      "name": "theme-color",
+      "property": null,
+      "content": "#000000"
+    },
+    {
+      "name": "title",
+      "property": null,
+      "content": "Home - ラエクセラ"
+    },
+    {
+      "name": "description",
+      "property": null,
+      "content": "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems."
+    },
+    {
+      "name": "",
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "name": "",
+      "property": "og:url",
+      "content": "https://raexera.is-a.dev/"
+    },
+    {
+      "name": "",
+      "property": "og:title",
+      "content": "Home - ラエクセラ"
+    },
+    {
+      "name": "",
+      "property": "og:description",
+      "content": "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems."
+    },
+    {
+      "name": "",
+      "property": "twitter:card",
+      "content": "summary"
+    },
+    {
+      "name": "",
+      "property": "twitter:url",
+      "content": "https://raexera.is-a.dev/"
+    },
+    {
+      "name": "",
+      "property": "twitter:title",
+      "content": "Home - ラエクセラ"
+    },
+    {
+      "name": "",
+      "property": "twitter:description",
+      "content": "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems."
+    },
+    {
+      "name": "astro-view-transitions-enabled",
+      "property": null,
+      "content": "true"
+    },
+    {
+      "name": "astro-view-transitions-fallback",
+      "property": null,
+      "content": "animate"
+    }
+  ],
+  "colors": [
+    "rgb(255, 255, 255)",
+    "rgb(0, 0, 0)",
+    "rgb(250, 250, 250)",
+    "rgb(23, 23, 23)",
+    "rgb(163, 163, 163)",
+    "rgb(38, 38, 38)",
+    "oklab(0 0 0 / 0.8)",
+    "rgb(10, 10, 10)",
+    "oklab(0.204625 0.00000931323 0.00000409782 / 0.5)",
+    "oklch(0.723 0.219 149.579)",
+    "oklab(0.204625 0.00000931323 0.00000409782 / 0.2)"
+  ],
+  "text": "ラエクセラ\nHome\nAbout\nProjects\nDevSecOps Engineer @ Verihubs\nRayhan Kafi Pratama\nDevSecOps Engineer\n/\n@raexera\nWho I Am?\n\nDevSecOps Engineer specializing in hybrid multi-cloud and on-premise infrastructure, alongside distributed systems. Experienced in low-level Linux debugging and building custom internal developer platforms (IDP) using Go and Python. Linux enthusiast and advocate for Immutable Infrastructure (NixOS) and Reproducible Builds, with a strong commitment to open-source contributions.\n\nGo\nPython\nShell/Bash\nNix\nSQL\nAWS (EKS, EC2)\nGoogle Cloud (GKE)\nTencent Cloud (TKE)\nOn-Premise\nKubernetes\nDocker\nTerraform\nNixOS\nAnsible\nGitHub Actions\nGitOps\nLinux\nPrometheus\nGrafana\nGatus\nIncident.io\nk6\nGo\nPython\nShell/Bash\nNix\nSQL\nAWS (EKS, EC2)\nGoogle Cloud (GKE)\nTencent Cloud (TKE)\nOn-Premise\nKubernetes\nDocker\nTerraform\nNixOS\nAnsible\nGitHub Actions\nGitOps\nLinux\nPrometheus\nGrafana\nGatus\nIncident.io\nk6\n\n© 2026 Rayhan Kafi Pratama. All rights reserved."
+}
