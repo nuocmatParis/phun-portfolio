@@ -21,3 +21,30 @@ export interface PortfolioProfile {
   socialLinks: SocialLink[];
   skills: string[];
 }
+
+export interface ExperienceEntry {
+  startDate: string;
+  endDate: string;
+  duration: string;
+  current?: boolean;
+  position: string;
+  company: string;
+  companyUrl: string;
+  location: string;
+  locationType: string;
+  summary: string;
+  responsibilities: string[];
+}
+
+export interface SkillGroup {
+  name: string;
+  skills: string[];
+}
+
+export interface ProjectEntry {
+  name: string;
+  description: string;
+  url: string;
+  highlights: string[];
+  technologies: string[];
+}

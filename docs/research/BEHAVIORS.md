@@ -38,5 +38,25 @@
 - 390px: one-column grid, 96px section padding, 32px card padding, 36px heading, four social columns, fixed bottom nav, no footer.
 - 640px: section padding changes to 128px, identity padding to 48px, heading to 60px.
 - 768px: desktop header/footer appear, mobile nav disappears, grid becomes three columns, social grid becomes two columns.
+
+## About route addendum
+
+- Interaction model: three independent click-driven experience disclosures, a direct CV download, external-link hovers, and skill-pill hovers.
+- Each disclosure starts at 40px height and 0.6 opacity with “Show more”; expanded content uses auto height and full opacity, changes to “Show less”, and rotates its chevron 180 degrees.
+- The Download CV control produces `Rayhan_Kafi_Pratama_CV.pdf`; the clone stores the captured real file at `public/documents/Rayhan_Kafi_Pratama_CV.pdf`.
+- At 640px, the timeline changes from stacked rows to date/marker/content columns; Skills changes from one to two columns; Education and Awards become a two-column row.
+- No new scroll-driven effects, smooth scrolling, images, videos, or backgrounds occur.
+
+## Projects route addendum
+
+- Interaction model: static card grid with external-link clicks and parent-card hover states.
+- Cards use 150ms border/background transitions. Tags inherit the group hover, while the diagonal arrow appears over 300ms.
+- The grid changes from one column to two at 640px. Card padding changes from 24px to 32px at the same breakpoint.
+- No images, videos, backgrounds, tabs, disclosure controls, or scroll-driven effects occur.
+
+## Cross-route navigation
+
+- The active desktop/mobile navigation pill follows `/`, `/about`, or `/projects` exactly.
+- Header scroll behavior and dark/light theme persistence are identical on all three routes.
 - 960px: heading changes to 72px and container max-width becomes 960px.
 - 1200px: outer container max-width becomes 1200px while grid remains capped at 1024px.
