@@ -69,7 +69,7 @@ export function SiteNavigation() {
     );
 
   const themeButtonClasses =
-    "flex size-9 shrink-0 cursor-pointer items-center justify-center rounded-md border border-border bg-transparent text-foreground transition-colors duration-150 ease-[cubic-bezier(0.4,0,0.2,1)] hover:bg-muted";
+    "flex size-9 shrink-0 cursor-pointer items-center justify-center rounded-md border border-border bg-transparent text-muted-foreground transition-colors duration-150 ease-[cubic-bezier(0.4,0,0.2,1)] hover:bg-muted hover:text-foreground";
 
   return (
     <>
@@ -118,8 +118,8 @@ export function SiteNavigation() {
         </div>
       </header>
 
-      <div className="fixed bottom-0 left-1/2 z-50 h-16 w-[calc(100%-2rem)] max-w-5xl -translate-x-1/2 md:hidden">
-        <div className="flex h-full items-center justify-between rounded-t-2xl border border-b-0 bg-[color-mix(in_oklab,var(--background)_80%,transparent)] px-4 py-3 backdrop-blur-md">
+      <div className="fixed bottom-0 left-1/2 z-50 flex h-16 w-[calc(100%-2rem)] max-w-5xl -translate-x-1/2 items-end md:hidden">
+        <div className="flex w-full items-center justify-between rounded-t-2xl border border-b-0 bg-[color-mix(in_oklab,var(--background)_80%,transparent)] px-4 py-3 backdrop-blur-md">
           <nav className="flex items-center gap-1" aria-label="Primary navigation">
             {navigationLinks.map((link) => (
               <Link
