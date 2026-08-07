@@ -30,7 +30,7 @@ const socialLinks = [
 
 export function SocialLinksCard() {
   return (
-    <div className="surface-card flex items-center justify-center p-6 md:col-span-1 md:p-8">
+    <div className="surface-card flex items-center justify-center p-6 sm:p-8 md:col-span-1">
       <div className="grid w-full grid-cols-4 gap-4 md:grid-cols-2">
         {socialLinks.map(({ label, href, Icon }) => (
           <a
