@@ -1,0 +1,34 @@
+{
+  "source": "/images/project-stilllife.png",
+  "canvas": [
+    1553,
+    1013
+  ],
+  "layers": [
+    {
+      "id": "stilllife-body-clean",
+      "file": "stilllife-body-clean.png",
+      "motion": "none"
+    },
+    {
+      "id": "hourglass-top-sand",
+      "file": "hourglass-top-sand.png",
+      "motion": "sand-top"
+    },
+    {
+      "id": "hourglass-falling-sand",
+      "file": "hourglass-falling-sand.png",
+      "motion": "sand-stream"
+    },
+    {
+      "id": "hourglass-bottom-sand",
+      "file": "hourglass-bottom-sand.png",
+      "motion": "sand-bottom"
+    }
+  ],
+  "quality": {
+    "meanAbsoluteError": 0.0,
+    "maxChannelError": 0,
+    "changedPixels": 0
+  }
+}

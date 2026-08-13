@@ -1,0 +1,158 @@
+{
+  "id": "card-sentinel",
+  "width": 1084,
+  "height": 1451,
+  "master": "/images/characters/masters/card-sentinel.png",
+  "layers": [
+    {
+      "id": "background-clean",
+      "file": "background-clean.webp",
+      "z": 0,
+      "motion": "none",
+      "origin": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": "contact-shadow",
+      "file": "contact-shadow.png",
+      "z": 10,
+      "motion": "contact-shadow",
+      "origin": [
+        50,
+        90
+      ]
+    },
+    {
+      "id": "character-base",
+      "file": "character-base.png",
+      "z": 30,
+      "motion": "body-breath",
+      "origin": [
+        50,
+        75
+      ]
+    },
+    {
+      "id": "gate",
+      "file": "gate.png",
+      "z": 18,
+      "motion": "gate-open",
+      "origin": [
+        96.0,
+        50.0
+      ]
+    },
+    {
+      "id": "banner",
+      "file": "banner.png",
+      "z": 24,
+      "motion": "banner-wind",
+      "origin": [
+        24.0,
+        16.0
+      ]
+    },
+    {
+      "id": "left-leg",
+      "file": "left-leg.png",
+      "z": 32,
+      "motion": "sentinel-step-left",
+      "origin": [
+        43.0,
+        70.0
+      ]
+    },
+    {
+      "id": "right-leg",
+      "file": "right-leg.png",
+      "z": 33,
+      "motion": "sentinel-step-right",
+      "origin": [
+        57.0,
+        70.0
+      ]
+    },
+    {
+      "id": "tabard",
+      "file": "tabard.png",
+      "z": 36,
+      "motion": "tabard",
+      "origin": [
+        50.0,
+        42.0
+      ]
+    },
+    {
+      "id": "left-arm-pole",
+      "file": "left-arm-pole.png",
+      "z": 42,
+      "motion": "banner-arm",
+      "origin": [
+        36.0,
+        31.0
+      ]
+    },
+    {
+      "id": "right-arm-keys",
+      "file": "right-arm-keys.png",
+      "z": 43,
+      "motion": "keys-raise",
+      "origin": [
+        62.0,
+        33.0
+      ]
+    },
+    {
+      "id": "keys",
+      "file": "keys.png",
+      "z": 47,
+      "motion": "keys-sway",
+      "origin": [
+        65.0,
+        57.0
+      ]
+    },
+    {
+      "id": "helmet",
+      "file": "helmet.png",
+      "z": 50,
+      "motion": "helmet-turn",
+      "origin": [
+        50.0,
+        29.0
+      ]
+    },
+    {
+      "id": "visor",
+      "file": "visor.png",
+      "z": 52,
+      "motion": "visor",
+      "origin": [
+        50.0,
+        21.0
+      ]
+    },
+    {
+      "id": "shoulders",
+      "file": "shoulders.png",
+      "z": 54,
+      "motion": "armor-breath",
+      "origin": [
+        50.0,
+        28.0
+      ]
+    },
+    {
+      "id": "foreground-occlusion",
+      "file": "foreground-occlusion.png",
+      "z": 90,
+      "motion": "none",
+      "origin": [
+        50,
+        75
+      ]
+    }
+  ]
+}

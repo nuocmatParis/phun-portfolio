@@ -1,0 +1,158 @@
+{
+  "id": "timekeeper-rabbit",
+  "width": 1198,
+  "height": 1313,
+  "master": "/images/characters/masters/timekeeper-rabbit.png",
+  "layers": [
+    {
+      "id": "background-clean",
+      "file": "background-clean.webp",
+      "z": 0,
+      "motion": "none",
+      "origin": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": "contact-shadow",
+      "file": "contact-shadow.png",
+      "z": 10,
+      "motion": "contact-shadow",
+      "origin": [
+        50,
+        90
+      ]
+    },
+    {
+      "id": "character-base",
+      "file": "character-base.png",
+      "z": 30,
+      "motion": "body-breath",
+      "origin": [
+        50,
+        75
+      ]
+    },
+    {
+      "id": "coat-tails",
+      "file": "coat-tails.png",
+      "z": 24,
+      "motion": "coat-tail",
+      "origin": [
+        56.0,
+        56.0
+      ]
+    },
+    {
+      "id": "left-leg",
+      "file": "left-leg.png",
+      "z": 30,
+      "motion": "rabbit-step-left",
+      "origin": [
+        47.0,
+        76.0
+      ]
+    },
+    {
+      "id": "right-leg",
+      "file": "right-leg.png",
+      "z": 31,
+      "motion": "rabbit-step-right",
+      "origin": [
+        59.0,
+        76.0
+      ]
+    },
+    {
+      "id": "watch-chain",
+      "file": "watch-chain.png",
+      "z": 39,
+      "motion": "watch-chain",
+      "origin": [
+        35.0,
+        43.0
+      ]
+    },
+    {
+      "id": "watch",
+      "file": "watch.png",
+      "z": 40,
+      "motion": "watch-raise",
+      "origin": [
+        34.0,
+        50.0
+      ]
+    },
+    {
+      "id": "left-arm",
+      "file": "left-arm.png",
+      "z": 41,
+      "motion": "watch-arm",
+      "origin": [
+        43.0,
+        38.0
+      ]
+    },
+    {
+      "id": "right-arm",
+      "file": "right-arm.png",
+      "z": 42,
+      "motion": "rabbit-arm",
+      "origin": [
+        62.0,
+        38.0
+      ]
+    },
+    {
+      "id": "head",
+      "file": "head.png",
+      "z": 45,
+      "motion": "rabbit-head",
+      "origin": [
+        51.0,
+        40.0
+      ]
+    },
+    {
+      "id": "ear-left",
+      "file": "ear-left.png",
+      "z": 47,
+      "motion": "rabbit-ear-left",
+      "origin": [
+        45.0,
+        28.0
+      ]
+    },
+    {
+      "id": "ear-right",
+      "file": "ear-right.png",
+      "z": 48,
+      "motion": "rabbit-ear-right",
+      "origin": [
+        56.0,
+        30.0
+      ]
+    },
+    {
+      "id": "eyes",
+      "file": "eyes.png",
+      "z": 50,
+      "motion": "blink",
+      "origin": [
+        52.0,
+        28.0
+      ]
+    },
+    {
+      "id": "foreground-occlusion",
+      "file": "foreground-occlusion.png",
+      "z": 90,
+      "motion": "none",
+      "origin": [
+        50,
+        75
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "source": "/images/gothic-wonderland-bg-v2.png",
+  "sourceSize": [
+    1568,
+    1003
+  ],
+  "crop": [
+    1210,
+    560,
+    1515,
+    945
+  ],
+  "canvas": [
+    305,
+    385
+  ],
+  "pivot": [
+    133,
+    222
+  ],
+  "layers": [
+    {
+      "id": "clock-body-clean",
+      "file": "clock-body-clean.png",
+      "zIndex": 0,
+      "motion": "none"
+    },
+    {
+      "id": "clock-hour-hand",
+      "file": "clock-hour-hand.png",
+      "zIndex": 1,
+      "motion": "clock-hour"
+    },
+    {
+      "id": "clock-minute-hand",
+      "file": "clock-minute-hand.png",
+      "zIndex": 2,
+      "motion": "clock-minute"
+    },
+    {
+      "id": "clock-glass-pin",
+      "file": "clock-glass-pin.png",
+      "zIndex": 3,
+      "motion": "none"
+    }
+  ],
+  "quality": {
+    "meanAbsoluteError": 0.0,
+    "maxChannelError": 0,
+    "changedPixels": 0
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "loading-creature",
+  "width": 1197,
+  "height": 1315,
+  "master": "/images/characters/masters/loading-creature.png",
+  "layers": [
+    {
+      "id": "background-clean",
+      "file": "background-clean.webp",
+      "z": 0,
+      "motion": "none",
+      "origin": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": "contact-shadow",
+      "file": "contact-shadow.png",
+      "z": 10,
+      "motion": "contact-shadow",
+      "origin": [
+        50,
+        90
+      ]
+    },
+    {
+      "id": "character-base",
+      "file": "character-base.png",
+      "z": 30,
+      "motion": "body-breath",
+      "origin": [
+        50,
+        75
+      ]
+    },
+    {
+      "id": "mushroom-cap",
+      "file": "mushroom-cap.png",
+      "z": 22,
+      "motion": "mushroom-cap",
+      "origin": [
+        53.0,
+        54.0
+      ]
+    },
+    {
+      "id": "torso-segments",
+      "file": "torso-segments.png",
+      "z": 34,
+      "motion": "segment-wave",
+      "origin": [
+        52.0,
+        38.0
+      ]
+    },
+    {
+      "id": "forelimbs",
+      "file": "forelimbs.png",
+      "z": 40,
+      "motion": "page-arms",
+      "origin": [
+        47.0,
+        34.0
+      ]
+    },
+    {
+      "id": "book",
+      "file": "book.png",
+      "z": 42,
+      "motion": "book-close",
+      "origin": [
+        40.0,
+        49.0
+      ]
+    },
+    {
+      "id": "page",
+      "file": "page.png",
+      "z": 45,
+      "motion": "page-turn",
+      "origin": [
+        39.0,
+        46.0
+      ]
+    },
+    {
+      "id": "head",
+      "file": "head.png",
+      "z": 47,
+      "motion": "creature-head",
+      "origin": [
+        51.0,
+        33.0
+      ]
+    },
+    {
+      "id": "antenna-left",
+      "file": "antenna-left.png",
+      "z": 49,
+      "motion": "antenna-left",
+      "origin": [
+        44.0,
+        21.0
+      ]
+    },
+    {
+      "id": "antenna-right",
+      "file": "antenna-right.png",
+      "z": 50,
+      "motion": "antenna-right",
+      "origin": [
+        51.0,
+        20.0
+      ]
+    },
+    {
+      "id": "eyes",
+      "file": "eyes.png",
+      "z": 52,
+      "motion": "blink",
+      "origin": [
+        47.0,
+        23.0
+      ]
+    },
+    {
+      "id": "foreground-occlusion",
+      "file": "foreground-occlusion.png",
+      "z": 90,
+      "motion": "none",
+      "origin": [
+        50,
+        75
+      ]
+    }
+  ]
+}

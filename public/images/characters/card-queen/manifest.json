@@ -1,0 +1,148 @@
+{
+  "id": "card-queen",
+  "width": 1023,
+  "height": 1537,
+  "master": "/images/characters/masters/card-queen.png",
+  "layers": [
+    {
+      "id": "background-clean",
+      "file": "background-clean.webp",
+      "z": 0,
+      "motion": "none",
+      "origin": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": "contact-shadow",
+      "file": "contact-shadow.png",
+      "z": 10,
+      "motion": "contact-shadow",
+      "origin": [
+        50,
+        90
+      ]
+    },
+    {
+      "id": "character-base",
+      "file": "character-base.png",
+      "z": 30,
+      "motion": "body-breath",
+      "origin": [
+        50,
+        75
+      ]
+    },
+    {
+      "id": "dress-train",
+      "file": "dress-train.png",
+      "z": 26,
+      "motion": "queen-train",
+      "origin": [
+        55.0,
+        60.0
+      ]
+    },
+    {
+      "id": "skirt-left",
+      "file": "skirt-left.png",
+      "z": 32,
+      "motion": "queen-skirt-left",
+      "origin": [
+        42.0,
+        44.0
+      ]
+    },
+    {
+      "id": "skirt-right",
+      "file": "skirt-right.png",
+      "z": 33,
+      "motion": "queen-skirt-right",
+      "origin": [
+        54.0,
+        43.0
+      ]
+    },
+    {
+      "id": "scepter-arm",
+      "file": "scepter-arm.png",
+      "z": 42,
+      "motion": "scepter-lean",
+      "origin": [
+        37.0,
+        27.0
+      ]
+    },
+    {
+      "id": "card-arm",
+      "file": "card-arm.png",
+      "z": 43,
+      "motion": "queen-card-arm",
+      "origin": [
+        61.0,
+        28.0
+      ]
+    },
+    {
+      "id": "card",
+      "file": "card.png",
+      "z": 47,
+      "motion": "queen-card",
+      "origin": [
+        66.0,
+        37.0
+      ]
+    },
+    {
+      "id": "head",
+      "file": "head.png",
+      "z": 50,
+      "motion": "queen-head",
+      "origin": [
+        50.0,
+        24.0
+      ]
+    },
+    {
+      "id": "eyes",
+      "file": "eyes.png",
+      "z": 52,
+      "motion": "blink",
+      "origin": [
+        50.0,
+        17.0
+      ]
+    },
+    {
+      "id": "crown",
+      "file": "crown.png",
+      "z": 54,
+      "motion": "crown",
+      "origin": [
+        50.0,
+        15.0
+      ]
+    },
+    {
+      "id": "petals",
+      "file": "petals.png",
+      "z": 60,
+      "motion": "petals",
+      "origin": [
+        50.0,
+        18.0
+      ]
+    },
+    {
+      "id": "foreground-occlusion",
+      "file": "foreground-occlusion.png",
+      "z": 90,
+      "motion": "none",
+      "origin": [
+        50,
+        75
+      ]
+    }
+  ]
+}

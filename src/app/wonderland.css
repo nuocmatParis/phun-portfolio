@@ -1,0 +1,479 @@
+:root {
+  --wonder-charcoal: #0a090a;
+  --wonder-ink: #171217;
+  --wonder-brass: #9f8059;
+  --wonder-brass-bright: #c4a477;
+  --wonder-z-content: 3;
+  --wonder-z-control: 12;
+}
+
+.gothic-page > .site-header,
+.gothic-page > .gothic-main,
+.gothic-page > footer {
+  position: relative;
+  z-index: var(--wonder-z-content);
+}
+
+.wonderland-scene {
+  position: absolute;
+  inset: 0;
+  z-index: auto;
+  overflow: clip;
+  pointer-events: none;
+}
+
+/* Full-canvas raster layers share one coordinate system and scale as a unit. */
+.layered-asset {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.layered-asset[data-scene-visible="false"] .layered-asset-layer {
+  animation-play-state: paused !important;
+}
+
+.layered-asset-canvas {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.layered-asset[data-asset="project-still-life"] .layered-asset-canvas {
+  aspect-ratio: 1553 / 1013;
+}
+
+.layered-asset[data-asset="antique-clock"] .layered-asset-canvas {
+  aspect-ratio: 305 / 385;
+}
+
+.layered-asset[data-asset="tea-setting"] .layered-asset-canvas,
+.layered-asset[data-asset="gothic-cat"] .layered-asset-canvas,
+.layered-asset[data-asset="door-creature"] .layered-asset-canvas,
+.layered-asset[data-asset="background-evidence"] .layered-asset-canvas {
+  aspect-ratio: 1568 / 1003;
+}
+
+.layered-asset-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  user-select: none;
+  will-change: transform;
+}
+
+/* Approved Projects still-life. No animation until its moving parts have clean plates. */
+.project-still-life {
+  align-self: end;
+  min-height: 0;
+  background: #080708;
+  mask-image: radial-gradient(ellipse 89% 82% at 58% 57%, #000 55%, rgb(0 0 0 / 72%) 72%, transparent 100%);
+}
+
+.project-still-life .layered-asset-layer {
+  object-fit: cover;
+}
+
+.project-still-life [data-motion="sand-top"],
+.project-still-life [data-motion="sand-stream"],
+.project-still-life [data-motion="sand-bottom"] {
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.project-still-life [data-motion="sand-top"] {
+  transform-origin: 60.27% 27.54%;
+  animation-name: antique-sand-top;
+}
+
+.project-still-life [data-motion="sand-stream"] {
+  animation-name: antique-sand-stream;
+}
+
+.project-still-life [data-motion="sand-bottom"] {
+  transform-origin: 60.27% 37.91%;
+  animation-name: antique-sand-bottom;
+}
+
+@keyframes antique-sand-top {
+  0%, 8% { opacity: 1; transform: scaleY(1); }
+  76% { opacity: .96; transform: scaleY(.12); }
+  82%, 99% { opacity: 0; transform: scaleY(.08); }
+  100% { opacity: 1; transform: scaleY(1); }
+}
+
+@keyframes antique-sand-stream {
+  0%, 76% { opacity: 1; }
+  82%, 99% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes antique-sand-bottom {
+  0%, 8% { opacity: .62; transform: scaleY(.22); }
+  76% { opacity: 1; transform: scaleY(1); }
+  82%, 99% { opacity: 0; transform: scaleY(1); }
+  100% { opacity: .62; transform: scaleY(.22); }
+}
+
+/* Exact clock crop from gothic-wonderland-bg-v2.png. */
+.antique-clock-control {
+  position: fixed;
+  right: 3.35vw;
+  bottom: 5.75vh;
+  z-index: 4;
+  display: block;
+  width: 19.45vw;
+  min-width: 245px;
+  max-width: 315px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.antique-clock-control:focus-visible {
+  outline: 1px solid color-mix(in srgb, var(--wonder-brass-bright) 72%, transparent);
+  outline-offset: -28px;
+}
+
+.antique-clock-cutout {
+  width: 100%;
+  mask-image: radial-gradient(ellipse 90% 94% at 54% 55%, #000 73%, transparent 100%);
+}
+
+.antique-clock-cutout [data-motion="clock-hour"],
+.antique-clock-cutout [data-motion="clock-minute"] {
+  transform-origin: 43.607% 57.662%;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.antique-clock-cutout [data-motion="clock-hour"] {
+  animation-name: antique-hour-travel;
+  animation-duration: 43200s;
+}
+
+.antique-clock-cutout [data-motion="clock-minute"] {
+  animation-name: antique-minute-travel;
+  animation-duration: 3600s;
+}
+
+.antique-clock-control[data-reversing="true"] [data-motion="clock-hour"],
+.antique-clock-control[data-reversing="true"] [data-motion="clock-minute"] {
+  animation-direction: reverse;
+  animation-duration: 180s;
+}
+
+@keyframes antique-hour-travel {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes antique-minute-travel {
+  to { transform: rotate(360deg); }
+}
+
+/* Generated only because no approved tea/cat source existed. These remain
+   photographic scene plates rather than redrawn UI props. */
+.home-tea-source,
+.ambient-cat-source,
+.surreal-door-source,
+.loading-creature-source {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-tea-source {
+  inset: auto -2vw 1.5vh auto;
+  width: 45vw;
+  min-height: 0;
+  opacity: .94;
+  mask-image: radial-gradient(ellipse 58% 72% at 74% 64%, #000 0 53%, rgb(0 0 0 / 70%) 72%, transparent 100%);
+}
+
+.ambient-cat-source .layered-asset-canvas {
+  width: max(100%, calc(100vh * 1.563));
+  min-height: 100vh;
+}
+
+.surreal-door-source .layered-asset-canvas,
+.loading-creature-source .layered-asset-canvas {
+  width: max(100%, calc(100vh * 1.563));
+  min-height: 100vh;
+}
+
+.home-tea-source .layered-asset-canvas {
+  width: 100%;
+}
+
+.home-tea-source .layered-asset-layer,
+.ambient-cat-source .layered-asset-layer,
+.surreal-door-source .layered-asset-layer,
+.loading-creature-source .layered-asset-layer {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.ambient-cat-source {
+  min-height: 100vh;
+  opacity: 0;
+  mask-image: radial-gradient(ellipse 18% 23% at 77% 77%, #000 0 43%, rgb(0 0 0 / 58%) 64%, transparent 100%);
+}
+
+.wonderland-scene[data-event="cat"] .ambient-cat-source {
+  animation: cinematic-cat-reveal 13s cubic-bezier(.42, 0, .58, 1) both;
+}
+
+@keyframes cinematic-cat-reveal {
+  0%, 12% { opacity: 0; }
+  34%, 67% { opacity: .82; }
+  100% { opacity: 0; }
+}
+
+.surreal-door-source {
+  right: auto;
+  left: -11vw;
+  min-height: 100vh;
+  opacity: .88;
+  mask-image: radial-gradient(ellipse 12% 21% at 16% 73%, #000 0 44%, rgb(0 0 0 / 65%) 68%, transparent 100%);
+}
+
+.loading-creature-source {
+  min-height: 100vh;
+  opacity: 0;
+  transform: translateX(-1px);
+  mask-image: radial-gradient(ellipse 8% 10% at 14% 86%, #000 0 45%, rgb(0 0 0 / 58%) 68%, transparent 100%);
+}
+
+.wonderland-scene[data-route-loading="true"] .loading-creature-source {
+  animation: loading-creature-glimpse 1.2s cubic-bezier(.42, 0, .58, 1) both;
+}
+
+@keyframes loading-creature-glimpse {
+  0% { opacity: 0; transform: translateX(-1px); }
+  34%, 74% { opacity: .86; transform: translateX(0); }
+  100% { opacity: 0; transform: translateX(1px); }
+}
+
+/* Exact approved background is repeated only inside localized masks. At rest it
+   is pixel-identical to the base plate; pointer motion stays below two pixels. */
+.environmental-motion {
+  --evidence-x: 0px;
+  --evidence-y: 0px;
+  --floor-skew: 0deg;
+  position: absolute;
+  inset: 0;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.environmental-motion-source,
+.living-cards-source {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.environmental-motion-source .layered-asset-canvas,
+.living-cards-source .layered-asset-canvas {
+  width: max(100vw, calc(100vh * 1.563));
+  min-height: 100vh;
+}
+
+.environmental-motion-source .layered-asset-layer,
+.living-cards-source .layered-asset-layer {
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.environmental-motion-source {
+  opacity: 0;
+  mask-image:
+    radial-gradient(ellipse 17% 60% at 3% 49%, #000 0 58%, transparent 100%),
+    radial-gradient(ellipse 17% 60% at 97% 49%, #000 0 58%, transparent 100%),
+    linear-gradient(to top, #000 0 19%, transparent 39%);
+  mask-composite: add;
+  transform: translate(var(--evidence-x), var(--evidence-y)) skewX(var(--floor-skew));
+  transform-origin: center bottom;
+  transition: opacity .7s ease;
+}
+
+.environmental-motion[data-reacting="true"] .environmental-motion-source {
+  opacity: .88;
+}
+
+.living-cards-source {
+  mask-image:
+    radial-gradient(ellipse 5% 9% at 8% 58%, #000 0 48%, transparent 100%),
+    radial-gradient(ellipse 5% 9% at 91% 46%, #000 0 48%, transparent 100%);
+  mask-composite: add;
+  transform-origin: center center;
+}
+
+.wonderland-scene[data-event="drifting-card"] .living-cards-source {
+  animation: stained-card-lift 8s cubic-bezier(.4, 0, .2, 1) both;
+}
+
+@keyframes stained-card-lift {
+  0%, 18% { transform: translateY(0) rotate(0); }
+  44%, 64% { transform: translateY(-2px) rotate(.42deg); }
+  100% { transform: translateY(0) rotate(0); }
+}
+
+:root:not(.dark) .home-tea-source,
+:root:not(.dark) .ambient-cat-source,
+:root:not(.dark) .surreal-door-source,
+:root:not(.dark) .loading-creature-source,
+:root:not(.dark) .environmental-motion {
+  display: none;
+}
+
+/* The original quill artwork stays untouched. The only added hover material is
+   a hairline of wet ink, kept within the illustration half of the card. */
+.project-card:nth-child(3)::before,
+.project-card:nth-child(3)::after {
+  position: absolute;
+  z-index: 2;
+  right: 8.5%;
+  pointer-events: none;
+  content: "";
+  opacity: 0;
+}
+
+.project-card:nth-child(3)::before {
+  bottom: 31.5%;
+  width: 30%;
+  height: 13%;
+  border-top: 1px solid rgb(118 78 112 / 76%);
+  border-radius: 50%;
+  transform: scaleX(.04);
+  transform-origin: left center;
+  filter: drop-shadow(0 0 2px rgb(98 57 94 / 24%));
+  transition: transform 2.8s cubic-bezier(.33, 0, .18, 1), opacity .8s ease;
+}
+
+.project-card:nth-child(3)::after {
+  right: 20%;
+  bottom: 29%;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #8f6689;
+  box-shadow: 18px -3px 0 -1px #8f6689, 36px 1px 0 -1px #8f6689;
+  transition: opacity 1.4s ease .8s;
+}
+
+.project-card:nth-child(3):hover::before,
+.project-card:nth-child(3):focus-within::before {
+  opacity: .82;
+  transform: scaleX(1);
+}
+
+.project-card:nth-child(3):hover::after,
+.project-card:nth-child(3):focus-within::after {
+  opacity: .58;
+}
+
+/* The only persistent decorative control: motion preference. */
+.wonder-intensity-control {
+  position: fixed;
+  right: 18px;
+  bottom: 14px;
+  z-index: var(--wonder-z-control);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 34px;
+  padding: 5px 10px 5px 7px;
+  color: var(--wonder-brass-bright);
+  font: 12px/1 var(--font-im-fell), Georgia, serif;
+  letter-spacing: .05em;
+  border: 1px solid color-mix(in srgb, var(--wonder-brass) 65%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--wonder-ink) 91%, transparent);
+  box-shadow: inset 0 0 0 2px #080708, 0 3px 18px #0009;
+  backdrop-filter: blur(4px);
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.wonder-intensity-control:focus-visible {
+  outline: 2px solid var(--wonder-brass-bright);
+  outline-offset: 4px;
+}
+
+.wonder-intensity-eye {
+  width: 20px;
+  height: 13px;
+  border: 1px solid var(--wonder-brass);
+  border-radius: 80% 20% 80% 20%;
+  transform: rotate(45deg);
+  background: radial-gradient(circle, #765073 0 24%, #171017 26% 43%, #b5a487 45% 61%, transparent 63%);
+}
+
+.wonder-intensity-control[data-intensity="off"] .wonder-intensity-eye {
+  transform: rotate(45deg) scaleY(.25);
+}
+
+.wonderland-scene[data-intensity="off"] .layered-asset-layer {
+  animation-play-state: paused !important;
+}
+
+@media (max-width: 1180px) {
+  .antique-clock-control {
+    right: 1vw;
+    min-width: 210px;
+    opacity: .9;
+  }
+}
+
+@media (max-width: 920px) {
+  .antique-clock-control {
+    display: none;
+  }
+
+  .wonder-intensity-control {
+    right: 10px;
+    bottom: 9px;
+  }
+
+  .wonder-intensity-label {
+    display: none;
+  }
+
+  .home-tea-source,
+  .ambient-cat-source,
+  .surreal-door-source,
+  .loading-creature-source,
+  .environmental-motion {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .layered-asset-layer {
+    animation-play-state: paused !important;
+  }
+
+  .layered-asset,
+  .wonder-intensity-control,
+  .wonder-intensity-eye {
+    transition: none !important;
+  }
+
+  .environmental-motion-source,
+  .living-cards-source {
+    transform: none !important;
+  }
+}

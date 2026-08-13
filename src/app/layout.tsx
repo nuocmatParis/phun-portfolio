@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import { portfolioData } from "@/data/portfolio";
 import "./globals.css";
 
 const inter = localFont({
@@ -29,12 +30,41 @@ const yujiMai = localFont({
   fallback: ["serif"],
 });
 
+const newRocker = localFont({
+  src: "../../public/fonts/NewRocker-Regular.ttf",
+  variable: "--font-new-rocker",
+  weight: "400",
+  style: "normal",
+  display: "swap",
+  fallback: ["Georgia", "serif"],
+});
+
+const imFellEnglish = localFont({
+  src: [
+    {
+      path: "../../public/fonts/IMFellEnglish-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/IMFellEnglish-Italic.ttf",
+      weight: "400",
+      style: "italic",
+    },
+  ],
+  variable: "--font-im-fell",
+  display: "swap",
+  fallback: ["Georgia", "serif"],
+});
+
 export const metadata: Metadata = {
-  title: "Home - ラエクセラ",
-  description:
-    "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems.",
+  title: {
+    default: portfolioData.meta.title,
+    template: `%s - ${portfolioData.profile.name}`,
+  },
+  description: portfolioData.meta.description,
   alternates: {
-    canonical: "https://raexera.is-a.dev/",
+    canonical: portfolioData.meta.url,
   },
   icons: {
     icon: [
@@ -48,22 +78,24 @@ export const metadata: Metadata = {
   manifest: "/seo/site.webmanifest",
   openGraph: {
     type: "website",
-    url: "https://raexera.is-a.dev/",
-    title: "Home - ラエクセラ",
-    description:
-      "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems.",
+    url: portfolioData.meta.url,
+    title: portfolioData.meta.title,
+    description: portfolioData.meta.description,
   },
   twitter: {
     card: "summary",
-    title: "Home - ラエクセラ",
-    description:
-      "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems.",
+    title: portfolioData.meta.title,
+    description: portfolioData.meta.description,
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#000000",
+  themeColor: "#0a0808",
 };
+
+import { LanguageProvider } from "@/context/LanguageContext";
+import { AmbientAnimationProvider } from "@/components/wonderland/AmbientAnimationProvider";
+import "./wonderland.css";
 
 export default function RootLayout({
   children,
@@ -73,10 +105,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${yujiMai.variable} dark`}
+      data-scroll-behavior="smooth"
+      className={`${inter.variable} ${yujiMai.variable} ${newRocker.variable} ${imFellEnglish.variable} dark`}
       suppressHydrationWarning
     >
-      <body>{children}</body>
+      <body>
+        <LanguageProvider>
+          <AmbientAnimationProvider>{children}</AmbientAnimationProvider>
+        </LanguageProvider>
+      </body>
     </html>
   );
 }

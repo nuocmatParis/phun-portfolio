@@ -133,14 +133,27 @@ CLAUDE.md           # Claude Code config (imports AGENTS.md)
 GEMINI.md           # Gemini CLI config (imports AGENTS.md)
 ```
 
+## Personal Portfolio Customization
+
+All portfolio content is central, typed, and editable from a single file:
+👉 **[`src/data/portfolio.ts`](file:///D:/FPTU/Portofolio/phun-portfolio/src/data/portfolio.ts)**
+
+### What is Configurable in `src/data/portfolio.ts`:
+- **Profile Details**: Name, Title/Role, Social Handle, Status badge, Bio, Resume/CV link.
+- **Social Links**: Email, LinkedIn, GitHub, Telegram, etc.
+- **Skills**: Marquee tech stack badges and categorized skill groups on the About page.
+- **Experience Timeline**: Career history, roles, duration, summary, and bullet points.
+- **Education & Awards**: Schooling, degrees, honors, and hackathon achievements.
+- **Projects Grid**: Projects list, Descriptions, Links, Highlights, and Technologies used.
+
 ## Commands
 
 ```bash
-npm run dev    # Start dev server
-npm run build  # Production build
-npm run lint   # ESLint check
-npm run typecheck # TypeScript check
-npm run check  # Run lint + typecheck + build
+npm run dev        # Start dev server
+npm run build      # Production build
+npm run lint       # ESLint check
+npm run typecheck  # TypeScript check
+npm run check      # Run lint + typecheck + build
 ```
 
 ### If using docker

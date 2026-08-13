@@ -1,0 +1,168 @@
+{
+  "id": "hatmaker",
+  "width": 1023,
+  "height": 1537,
+  "master": "/images/characters/masters/hatmaker.png",
+  "layers": [
+    {
+      "id": "background-clean",
+      "file": "background-clean.webp",
+      "z": 0,
+      "motion": "none",
+      "origin": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": "contact-shadow",
+      "file": "contact-shadow.png",
+      "z": 10,
+      "motion": "contact-shadow",
+      "origin": [
+        50,
+        90
+      ]
+    },
+    {
+      "id": "character-base",
+      "file": "character-base.png",
+      "z": 30,
+      "motion": "body-breath",
+      "origin": [
+        50,
+        75
+      ]
+    },
+    {
+      "id": "chair-table",
+      "file": "chair-table.png",
+      "z": 20,
+      "motion": "furniture-still",
+      "origin": [
+        42.0,
+        64.0
+      ]
+    },
+    {
+      "id": "coat-tails",
+      "file": "coat-tails.png",
+      "z": 31,
+      "motion": "hatmaker-coat",
+      "origin": [
+        54.0,
+        52.0
+      ]
+    },
+    {
+      "id": "left-arm-cup",
+      "file": "left-arm-cup.png",
+      "z": 42,
+      "motion": "cup-raise",
+      "origin": [
+        42.0,
+        34.0
+      ]
+    },
+    {
+      "id": "cup",
+      "file": "cup.png",
+      "z": 45,
+      "motion": "cup-raise",
+      "origin": [
+        34.0,
+        38.0
+      ]
+    },
+    {
+      "id": "liquid",
+      "file": "liquid.png",
+      "z": 47,
+      "motion": "liquid-level",
+      "origin": [
+        30.0,
+        34.0
+      ]
+    },
+    {
+      "id": "right-arm-gear",
+      "file": "right-arm-gear.png",
+      "z": 43,
+      "motion": "gear-hand",
+      "origin": [
+        59.0,
+        33.0
+      ]
+    },
+    {
+      "id": "gear",
+      "file": "gear.png",
+      "z": 46,
+      "motion": "gear-turn",
+      "origin": [
+        57.0,
+        45.0
+      ]
+    },
+    {
+      "id": "head",
+      "file": "head.png",
+      "z": 50,
+      "motion": "hatmaker-head",
+      "origin": [
+        53.0,
+        33.0
+      ]
+    },
+    {
+      "id": "eyes",
+      "file": "eyes.png",
+      "z": 52,
+      "motion": "blink",
+      "origin": [
+        51.0,
+        25.0
+      ]
+    },
+    {
+      "id": "hat",
+      "file": "hat.png",
+      "z": 55,
+      "motion": "hat-shift",
+      "origin": [
+        49.0,
+        22.0
+      ]
+    },
+    {
+      "id": "hat-card",
+      "file": "hat-card.png",
+      "z": 58,
+      "motion": "hat-card",
+      "origin": [
+        62.0,
+        18.0
+      ]
+    },
+    {
+      "id": "tape",
+      "file": "tape.png",
+      "z": 59,
+      "motion": "tape-shift",
+      "origin": [
+        60.0,
+        16.0
+      ]
+    },
+    {
+      "id": "foreground-occlusion",
+      "file": "foreground-occlusion.png",
+      "z": 90,
+      "motion": "none",
+      "origin": [
+        50,
+        75
+      ]
+    }
+  ]
+}

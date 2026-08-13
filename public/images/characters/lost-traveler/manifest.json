@@ -1,0 +1,158 @@
+{
+  "id": "lost-traveler",
+  "width": 1023,
+  "height": 1537,
+  "master": "/images/characters/masters/lost-traveler.png",
+  "layers": [
+    {
+      "id": "background-clean",
+      "file": "background-clean.webp",
+      "z": 0,
+      "motion": "none",
+      "origin": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": "contact-shadow",
+      "file": "contact-shadow.png",
+      "z": 10,
+      "motion": "contact-shadow",
+      "origin": [
+        50,
+        90
+      ]
+    },
+    {
+      "id": "character-base",
+      "file": "character-base.png",
+      "z": 30,
+      "motion": "body-breath",
+      "origin": [
+        50,
+        75
+      ]
+    },
+    {
+      "id": "rear-hair",
+      "file": "rear-hair.png",
+      "z": 24,
+      "motion": "traveler-hair",
+      "origin": [
+        47.0,
+        18.0
+      ]
+    },
+    {
+      "id": "left-boot",
+      "file": "left-boot.png",
+      "z": 31,
+      "motion": "traveler-step-left",
+      "origin": [
+        42.0,
+        82.0
+      ]
+    },
+    {
+      "id": "right-boot",
+      "file": "right-boot.png",
+      "z": 32,
+      "motion": "traveler-step-right",
+      "origin": [
+        57.0,
+        82.0
+      ]
+    },
+    {
+      "id": "skirt-left",
+      "file": "skirt-left.png",
+      "z": 34,
+      "motion": "skirt-left",
+      "origin": [
+        43.0,
+        45.0
+      ]
+    },
+    {
+      "id": "skirt-right",
+      "file": "skirt-right.png",
+      "z": 35,
+      "motion": "skirt-right",
+      "origin": [
+        54.0,
+        45.0
+      ]
+    },
+    {
+      "id": "left-arm-key",
+      "file": "left-arm-key.png",
+      "z": 41,
+      "motion": "raise-key",
+      "origin": [
+        34.0,
+        29.0
+      ]
+    },
+    {
+      "id": "right-arm-map",
+      "file": "right-arm-map.png",
+      "z": 42,
+      "motion": "raise-map",
+      "origin": [
+        61.0,
+        30.0
+      ]
+    },
+    {
+      "id": "map",
+      "file": "map.png",
+      "z": 45,
+      "motion": "map-corner",
+      "origin": [
+        62.0,
+        47.0
+      ]
+    },
+    {
+      "id": "head",
+      "file": "head.png",
+      "z": 47,
+      "motion": "traveler-head",
+      "origin": [
+        48.0,
+        27.0
+      ]
+    },
+    {
+      "id": "front-hair",
+      "file": "front-hair.png",
+      "z": 49,
+      "motion": "traveler-front-hair",
+      "origin": [
+        48.0,
+        20.0
+      ]
+    },
+    {
+      "id": "eyes",
+      "file": "eyes.png",
+      "z": 51,
+      "motion": "blink",
+      "origin": [
+        49.0,
+        19.0
+      ]
+    },
+    {
+      "id": "foreground-occlusion",
+      "file": "foreground-occlusion.png",
+      "z": 90,
+      "motion": "none",
+      "origin": [
+        50,
+        75
+      ]
+    }
+  ]
+}

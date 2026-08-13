@@ -4,15 +4,17 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteNavigation } from "@/components/SiteNavigation";
 import { SkillsMarquee } from "@/components/SkillsMarquee";
 import { SocialLinksCard } from "@/components/SocialLinksCard";
+import { WonderlandScene } from "@/components/wonderland/WonderlandScene";
 
 export default function HomePage() {
   return (
-    <>
+    <div className="gothic-page">
+      <WonderlandScene page="home" />
       <SiteNavigation />
-      <main className="relative z-10 flex flex-1 flex-col">
-        <section className="flex min-h-[calc(100vh-12rem)] items-center py-24 sm:py-32">
-          <div className="site-container">
-            <div className="mx-auto grid max-w-5xl grid-cols-1 gap-4 md:grid-cols-3">
+      <main className="gothic-main">
+        <section className="home-stage">
+          <div className="site-container home-layout">
+            <div className="home-grid">
               <IdentityCard />
               <BioCard />
               <SocialLinksCard />
@@ -22,6 +24,6 @@ export default function HomePage() {
         </section>
       </main>
       <SiteFooter />
-    </>
+    </div>
   );
 }
