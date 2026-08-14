@@ -4,17 +4,19 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
-import { MoonIcon, SunIcon } from "@/components/icons";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { AnimatedThemeToggler } from "@/registry/magicui/animated-theme-toggler";
+import { useLanguage } from "@/context/LanguageContext";
 import { cn } from "@/lib/utils";
-
-const navigationLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/projects", label: "Projects" },
-] as const;
 
 export function SiteNavigation() {
   const pathname = usePathname();
+  const { data } = useLanguage();
+  const navigationLinks = [
+    { href: "/", label: data.labels.navHome },
+    { href: "/about", label: data.labels.navAbout },
+    { href: "/projects", label: data.labels.navProjects },
+  ] as const;
 
   useEffect(() => {
     const root = document.documentElement;
@@ -23,6 +25,11 @@ export function SiteNavigation() {
 
     if (savedTheme === "dark" || savedTheme === "light") {
       root.classList.toggle("dark", savedTheme === "dark");
+    } else {
+      root.classList.toggle(
+        "dark",
+        window.matchMedia("(prefers-color-scheme: dark)").matches,
+      );
     }
 
     const updateScrolledState = () => {
@@ -35,19 +42,6 @@ export function SiteNavigation() {
     return () => window.removeEventListener("scroll", updateScrolledState);
   }, []);
 
-  const toggleTheme = () => {
-    const root = document.documentElement;
-    const nextIsDark = !root.classList.contains("dark");
-
-    root.classList.add("theme-transition-lock");
-    root.classList.toggle("dark", nextIsDark);
-    window.localStorage.setItem("theme", nextIsDark ? "dark" : "light");
-
-    window.setTimeout(() => {
-      root.classList.remove("theme-transition-lock");
-    }, 10);
-  };
-
   const desktopLinkClasses = (href: string) =>
     cn(
       "flex h-9 items-center rounded-md px-4 text-sm leading-5 font-medium transition-colors duration-150 ease-[cubic-bezier(0.4,0,0.2,1)]",
@@ -58,14 +52,11 @@ export function SiteNavigation() {
 
   const mobileLinkClasses = (href: string) =>
     cn(
-      "flex h-9 items-center rounded-lg px-3 text-sm leading-5 font-medium transition-colors duration-150 ease-[cubic-bezier(0.4,0,0.2,1)]",
+      "flex h-9 items-center rounded-lg px-3 text-sm leading-5 font-medium transition-colors duration-150 ease-[cubic-bezier(0.4,0,0.2,1)] max-[360px]:px-2 max-[360px]:text-xs",
       pathname === href
         ? "bg-muted text-foreground"
         : "text-muted-foreground hover:bg-muted hover:text-foreground",
     );
-
-  const themeButtonClasses =
-    "flex size-9 shrink-0 cursor-pointer items-center justify-center rounded-md border border-border bg-transparent text-muted-foreground transition-colors duration-150 ease-[cubic-bezier(0.4,0,0.2,1)] hover:bg-muted hover:text-foreground";
 
   return (
     <>
@@ -76,9 +67,9 @@ export function SiteNavigation() {
         <div className="site-container flex h-full items-center justify-between">
           <Link
             href="/"
-            className="w-[97.5px] font-[family-name:var(--font-yuji-mai)] text-xl leading-7 font-bold tracking-[-0.5px]"
+            className="whitespace-nowrap font-[family-name:var(--font-yuji-mai)] text-xl leading-7 font-bold tracking-[-0.5px]"
           >
-            ラエクセラ
+            {data.profile.logoText}
           </Link>
 
           <nav className="flex items-center gap-2" aria-label="Primary navigation">
@@ -93,15 +84,10 @@ export function SiteNavigation() {
             ))}
           </nav>
 
-          <button
-            type="button"
-            aria-label="Toggle light and dark theme"
-            onClick={toggleTheme}
-            className={themeButtonClasses}
-          >
-            <SunIcon className="block size-[19.2px] dark:hidden" />
-            <MoonIcon className="hidden size-[19.2px] dark:block" />
-          </button>
+          <div className="flex items-center gap-2">
+            <LanguageSwitcher />
+            <AnimatedThemeToggler duration={2000} />
+          </div>
         </div>
       </header>
 
@@ -119,15 +105,10 @@ export function SiteNavigation() {
             ))}
           </nav>
 
-          <button
-            type="button"
-            aria-label="Toggle light and dark theme"
-            onClick={toggleTheme}
-            className={themeButtonClasses}
-          >
-            <SunIcon className="block size-[19.2px] dark:hidden" />
-            <MoonIcon className="hidden size-[19.2px] dark:block" />
-          </button>
+          <div className="flex items-center gap-1">
+            <LanguageSwitcher compact />
+            <AnimatedThemeToggler duration={2000} />
+          </div>
         </div>
       </div>
     </>

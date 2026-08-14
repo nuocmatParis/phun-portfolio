@@ -65,12 +65,12 @@ export function GithubIcon(props: IconProps) {
   );
 }
 
-export function TelegramIcon(props: IconProps) {
+export function XIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
       <path
-        {...sharedProps}
-        d="m11.985 15.408 3.242 3.686c1.2 1.365 1.801 2.048 2.43 1.881.628-.166.844-1.064 1.275-2.861l2.39-9.968c.665-2.768.997-4.151.259-4.834s-2.017-.175-4.575.84L5.14 8.865c-2.046.813-3.069 1.219-3.134 1.917a1 1 0 0 0 0 .214c.063.699 1.084 1.108 3.128 1.927.925.371 1.388.557 1.72.912q.056.06.108.124c.306.38.436.88.697 1.876l.489 1.867c.253.97.38 1.456.713 1.522s.622-.336 1.201-1.141zm0 0-.317-.33c-.362-.378-.543-.566-.543-.8s.18-.423.543-.8l3.573-3.724"
+        fill="currentColor"
+        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
       />
     </svg>
   );
@@ -120,21 +120,6 @@ export function DiagonalArrowIcon(props: IconProps) {
         <polyline points="5.33 0 10.83 5.5 5.33 11" />
         <line x1="10.83" x2="0.83" y1="5.5" y2="5.17" />
       </g>
-    </svg>
-  );
-}
-
-export function ChevronDownIcon(props: IconProps) {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-      <polyline
-        points="6 9 12 15 18 9"
-        fill="none"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2.5"
-      />
     </svg>
   );
 }
