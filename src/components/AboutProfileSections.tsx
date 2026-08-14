@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import {
   ArrowUpRightIcon,
   AwardIcon,
@@ -83,25 +85,43 @@ export function AwardsSection() {
   }
 
   return (
-    <section className={cardClasses}>
-      <h2 className={headingClasses}>{data.labels.awardsSectionTitle}</h2>
-      <div className="space-y-6">
-        {data.awards.map((award) => (
-          <div key={award.title} className="flex gap-3">
-            <AwardIcon className="mt-0.5 hidden size-5 shrink-0 text-muted-foreground md:block" />
-            <div className="flex w-full flex-col gap-1">
-              <div className="flex flex-col items-start justify-between gap-2 sm:flex-row">
-                <h3 className="text-base leading-[22px] font-medium text-foreground">
-                  {award.title}
-                </h3>
-                <span className="shrink-0 text-xs font-medium text-muted-foreground sm:mt-0.5">
-                  {award.date}
-                </span>
+    <section
+      className={`${cardClasses} relative isolate overflow-hidden sm:col-span-2 sm:min-h-[360px]`}
+    >
+      <div
+        className="identity-art pointer-events-none absolute inset-y-0 right-2 hidden w-[48%] sm:block"
+        aria-hidden="true"
+      >
+        <Image
+          src="/images/certifications-character-cutout.png"
+          alt=""
+          fill
+          sizes="(min-width: 1024px) 440px, (min-width: 640px) 46vw, 0px"
+          className="identity-art-image object-contain object-bottom"
+          draggable={false}
+        />
+      </div>
+
+      <div className="relative z-10 sm:max-w-[60%]">
+        <h2 className={headingClasses}>{data.labels.awardsSectionTitle}</h2>
+        <div className="space-y-6">
+          {data.awards.map((award) => (
+            <div key={award.title} className="flex gap-3">
+              <AwardIcon className="mt-0.5 hidden size-5 shrink-0 text-muted-foreground md:block" />
+              <div className="flex w-full flex-col gap-1">
+                <div className="flex flex-col items-start justify-between gap-2 sm:flex-row">
+                  <h3 className="text-base leading-[22px] font-medium text-foreground">
+                    {award.title}
+                  </h3>
+                  <span className="shrink-0 text-xs font-medium text-muted-foreground sm:mt-0.5">
+                    {award.date}
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground">{award.awarder}</p>
               </div>
-              <p className="text-sm text-muted-foreground">{award.awarder}</p>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
