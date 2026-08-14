@@ -1,29 +1,14 @@
-const skills = [
-  "Go",
-  "Python",
-  "Shell/Bash",
-  "Nix",
-  "SQL",
-  "AWS (EKS, EC2)",
-  "Google Cloud (GKE)",
-  "Tencent Cloud (TKE)",
-  "On-Premise",
-  "Kubernetes",
-  "Docker",
-  "Terraform",
-  "NixOS",
-  "Ansible",
-  "GitHub Actions",
-  "GitOps",
-  "Linux",
-  "Prometheus",
-  "Grafana",
-  "Gatus",
-  "Incident.io",
-  "k6",
-] as const;
+"use client";
 
-function SkillGroup({ duplicate = false }: { duplicate?: boolean }) {
+import { useLanguage } from "@/context/LanguageContext";
+
+function SkillGroup({
+  duplicate = false,
+  skills,
+}: {
+  duplicate?: boolean;
+  skills: string[];
+}) {
   return (
     <div
       aria-hidden={duplicate || undefined}
@@ -42,6 +27,8 @@ function SkillGroup({ duplicate = false }: { duplicate?: boolean }) {
 }
 
 export function SkillsMarquee() {
+  const { data } = useLanguage();
+
   return (
     <section
       aria-label="Skills and technologies"
@@ -49,8 +36,8 @@ export function SkillsMarquee() {
     >
       <div className="marquee-mask w-full overflow-hidden">
         <div className="marquee-track flex w-max">
-          <SkillGroup />
-          <SkillGroup duplicate />
+          <SkillGroup skills={data.profile.marqueeSkills} />
+          <SkillGroup duplicate skills={data.profile.marqueeSkills} />
         </div>
       </div>
     </section>

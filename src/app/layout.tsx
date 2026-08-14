@@ -1,5 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+
+import { LanguageProvider } from "@/context/LanguageContext";
+import { portfolioData } from "@/data/portfolio";
+
 import "./globals.css";
 
 const inter = localFont({
@@ -30,12 +34,11 @@ const yujiMai = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Home - ラエクセラ",
-  description:
-    "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems.",
-  alternates: {
-    canonical: "https://raexera.is-a.dev/",
+  title: {
+    default: portfolioData.meta.title,
+    template: `%s - ${portfolioData.profile.name}`,
   },
+  description: portfolioData.meta.description,
   icons: {
     icon: [
       { url: "/seo/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -48,16 +51,13 @@ export const metadata: Metadata = {
   manifest: "/seo/site.webmanifest",
   openGraph: {
     type: "website",
-    url: "https://raexera.is-a.dev/",
-    title: "Home - ラエクセラ",
-    description:
-      "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems.",
+    title: portfolioData.meta.title,
+    description: portfolioData.meta.description,
   },
   twitter: {
     card: "summary",
-    title: "Home - ラエクセラ",
-    description:
-      "DevSecOps Engineer specializing in hybrid multi-cloud infrastructure and distributed systems.",
+    title: portfolioData.meta.title,
+    description: portfolioData.meta.description,
   },
 };
 
@@ -76,7 +76,9 @@ export default function RootLayout({
       className={`${inter.variable} ${yujiMai.variable} dark`}
       suppressHydrationWarning
     >
-      <body>{children}</body>
+      <body>
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   );
 }
