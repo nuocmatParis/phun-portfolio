@@ -10,7 +10,7 @@ export function BioCard() {
       <span className="mb-4 text-sm leading-5 font-medium text-foreground">
         {data.profile.biographyTitle}
       </span>
-      <div className="space-y-4 text-base leading-[26px] font-normal text-muted-foreground sm:text-[18px] sm:leading-[29.25px]">
+      <div className="space-y-4 text-base leading-[26px] font-normal text-muted-foreground sm:text-justify sm:text-[18px] sm:leading-[29.25px]">
         {data.profile.biography.split("\n\n").map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
